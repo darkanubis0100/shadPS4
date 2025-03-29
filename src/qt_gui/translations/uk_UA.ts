@@ -10,10 +10,6 @@
       <translation>Про shadPS4</translation>
     </message>
     <message>
-      <source>shadPS4</source>
-      <translation type="unfinished">shadPS4</translation>
-    </message>
-    <message>
       <source>shadPS4 is an experimental open-source emulator for the PlayStation 4.</source>
       <translation>shadPS4 - це експериментальний емулятор з відкритим вихідним кодом для PlayStation 4.</translation>
     </message>
@@ -29,8 +25,8 @@
       <translation>Чити та Патчі для </translation>
     </message>
     <message>
-      <source>defaultTextEdit_MSG</source>
-      <translation>Чити та Патчі є експериментальними.\nВикористовуйте з обережністю.\n\nЗавантажуйте чити окремо, вибравши репозиторій і натиснувши кнопку завантаження.\nУ вкладці &quot;Патчі&quot; ви можете завантажити всі патчі відразу, вибрати, які з них ви хочете використовувати, і зберегти свій вибір.\n\nОскільки ми не займаємося розробкою читів/патчів,\nбудь ласка, повідомляйте про проблеми автору чита/патча.\n\nСтворили новий чит? Відвідайте:\nhttps://github.com/shadps4-emu/ps4_cheats</translation>
+      <source>Cheats/Patches are experimental.\nUse with caution.\n\nDownload cheats individually by selecting the repository and clicking the download button.\nIn the Patches tab, you can download all patches at once, choose which ones you want to use, and save your selection.\n\nSince we do not develop the Cheats/Patches,\nplease report issues to the cheat author.\n\nCreated a new cheat? Visit:\n</source>
+      <translation>Чити та Патчі є експериментальними.\nВикористовуйте з обережністю.\n\nЗавантажуйте чити окремо, вибравши репозиторій і натиснувши кнопку завантаження.\nУ вкладці &quot;Патчі&quot; ви можете завантажити всі патчі відразу, вибрати, які з них ви хочете використовувати, і зберегти свій вибір.\n\nОскільки ми не займаємося розробкою читів/патчів,\nбудь ласка, повідомляйте про проблеми автору чита/патча.\n\nСтворили новий чит? Відвідайте:\n</translation>
     </message>
     <message>
       <source>No Image Available</source>
@@ -161,7 +157,7 @@
       <translation>Читів не знайдено</translation>
     </message>
     <message>
-      <source>CheatsNotFound_MSG</source>
+      <source>No Cheats found for this game in this version of the selected repository,try another repository or a different version of the game.</source>
       <translation>У вибраному репозиторії не знайдено Читів для цієї гри, спробуйте інший репозиторій або іншу версію гри.</translation>
     </message>
     <message>
@@ -169,7 +165,7 @@
       <translation>Чити успішно завантажено</translation>
     </message>
     <message>
-      <source>CheatsDownloadedSuccessfully_MSG</source>
+      <source>You have successfully downloaded the cheats for this version of the game from the selected repository. You can try downloading from another repository, if it is available it will also be possible to use it by selecting the file from the list.</source>
       <translation>Ви успішно завантажили чити для цієї версії гри з обраного репозиторія. Ви можете спробувати завантажити з іншого репозиторія, якщо він буде доступним, ви також зможете скористатися ним, вибравши файл зі списку.</translation>
     </message>
     <message>
@@ -185,7 +181,7 @@
       <translation>Заватнаження завершено</translation>
     </message>
     <message>
-      <source>DownloadComplete_MSG</source>
+      <source>Patches Downloaded Successfully! All Patches available for all games have been downloaded, there is no need to download them individually for each game as happens in Cheats. If the patch does not appear, it may be that it does not exist for the specific serial and version of the game.</source>
       <translation>Патчі успішно завантажено! Всі доступні патчі для усіх ігор, завантажено, немає необхідності завантажувати їх окремо для кожної гри, як це відбувається у випадку з читами. Якщо патч не з’являється, можливо, його не існує для конкретного серійного номера та версії гри. Можливо, необхідно оновити гру.</translation>
     </message>
     <message>
@@ -264,7 +260,7 @@
       <translation>Мережева помилка:</translation>
     </message>
     <message>
-      <source>Error_Github_limit_MSG</source>
+      <source>The Auto Updater allows up to 60 update checks per hour.\nYou have reached this limit. Please try again later.</source>
       <translation>Автооновлення дозволяє до 60 перевірок оновлень на годину.\nВи досягли цього ліміту. Будь ласка, спробуйте пізніше.</translation>
     </message>
     <message>
@@ -411,127 +407,210 @@
     <name>ControlSettings</name>
     <message>
       <source>Configure Controls</source>
-      <translation type="unfinished">Configure Controls</translation>
-    </message>
-    <message>
-      <source>Control Settings</source>
-      <translation type="unfinished">Control Settings</translation>
+      <translation>Налаштування елементів керування</translation>
     </message>
     <message>
       <source>D-Pad</source>
-      <translation type="unfinished">D-Pad</translation>
+      <translation>Хрестовина</translation>
     </message>
     <message>
       <source>Up</source>
-      <translation type="unfinished">Up</translation>
+      <translation>Вгору</translation>
     </message>
     <message>
       <source>Left</source>
-      <translation type="unfinished">Left</translation>
+      <translation>Ліворуч</translation>
     </message>
     <message>
       <source>Right</source>
-      <translation type="unfinished">Right</translation>
+      <translation>Праворуч</translation>
     </message>
     <message>
       <source>Down</source>
-      <translation type="unfinished">Down</translation>
+      <translation>Вниз</translation>
     </message>
     <message>
       <source>Left Stick Deadzone (def:2 max:127)</source>
-      <translation type="unfinished">Left Stick Deadzone (def:2 max:127)</translation>
+      <translation>Мертва зона лівого стику (за замов.: 2, максимум: 127)</translation>
     </message>
     <message>
       <source>Left Deadzone</source>
-      <translation type="unfinished">Left Deadzone</translation>
+      <translation>Ліва мертва зона</translation>
     </message>
     <message>
       <source>Left Stick</source>
-      <translation type="unfinished">Left Stick</translation>
+      <translation>Лівий стік</translation>
     </message>
     <message>
       <source>Config Selection</source>
-      <translation type="unfinished">Config Selection</translation>
+      <translation>Вибір конфігурації</translation>
     </message>
     <message>
       <source>Common Config</source>
-      <translation type="unfinished">Common Config</translation>
+      <translation>Загальна конфігурація</translation>
     </message>
     <message>
       <source>Use per-game configs</source>
-      <translation type="unfinished">Use per-game configs</translation>
+      <translation>Використовувати ігрові конфігурації</translation>
     </message>
     <message>
       <source>L1 / LB</source>
-      <translation type="unfinished">L1 / LB</translation>
+      <translation>L1 / Лівий Бампер</translation>
     </message>
     <message>
       <source>L2 / LT</source>
-      <translation type="unfinished">L2 / LT</translation>
-    </message>
-    <message>
-      <source>KBM Controls</source>
-      <translation type="unfinished">KBM Controls</translation>
-    </message>
-    <message>
-      <source>KBM Editor</source>
-      <translation type="unfinished">KBM Editor</translation>
+      <translation>L2 / Лівий Тригер</translation>
     </message>
     <message>
       <source>Back</source>
-      <translation type="unfinished">Back</translation>
+      <translation>Назад</translation>
     </message>
     <message>
       <source>R1 / RB</source>
-      <translation type="unfinished">R1 / RB</translation>
+      <translation>R1 / Правий Бампер</translation>
     </message>
     <message>
       <source>R2 / RT</source>
-      <translation type="unfinished">R2 / RT</translation>
+      <translation>R2 / Правий Тригер</translation>
     </message>
     <message>
       <source>L3</source>
-      <translation type="unfinished">L3</translation>
+      <translation>Кнопка лівого стику</translation>
     </message>
     <message>
       <source>Options / Start</source>
-      <translation type="unfinished">Options / Start</translation>
+      <translation>Опції / Старт</translation>
     </message>
     <message>
       <source>R3</source>
-      <translation type="unfinished">R3</translation>
+      <translation>Кнопка правого стику</translation>
     </message>
     <message>
       <source>Face Buttons</source>
-      <translation type="unfinished">Face Buttons</translation>
+      <translation>Лицьові кнопки</translation>
     </message>
     <message>
       <source>Triangle / Y</source>
-      <translation type="unfinished">Triangle / Y</translation>
+      <translation>Трикутник / Y</translation>
     </message>
     <message>
       <source>Square / X</source>
-      <translation type="unfinished">Square / X</translation>
+      <translation>Квадрат / X</translation>
     </message>
     <message>
       <source>Circle / B</source>
-      <translation type="unfinished">Circle / B</translation>
+      <translation>Коло / B</translation>
     </message>
     <message>
       <source>Cross / A</source>
-      <translation type="unfinished">Cross / A</translation>
+      <translation>Хрест / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
-      <translation type="unfinished">Right Stick Deadzone (def:2, max:127)</translation>
+      <translation>Мертва зона правого стику (за замов.: 2, максимум: 127)</translation>
     </message>
     <message>
       <source>Right Deadzone</source>
-      <translation type="unfinished">Right Deadzone</translation>
+      <translation>Права мертва зона</translation>
     </message>
     <message>
       <source>Right Stick</source>
-      <translation type="unfinished">Right Stick</translation>
+      <translation>Правий стик</translation>
+    </message>
+    <message>
+      <source>Color Adjustment</source>
+      <translation>Налаштування Кольору</translation>
+    </message>
+    <message>
+      <source>R:</source>
+      <translation>R:</translation>
+    </message>
+    <message>
+      <source>G:</source>
+      <translation>G:</translation>
+    </message>
+    <message>
+      <source>B:</source>
+      <translation>B:</translation>
+    </message>
+    <message>
+      <source>Override Lightbar Color</source>
+      <translation>Змінити колір підсвітки</translation>
+    </message>
+    <message>
+      <source>Override Color</source>
+      <translation>Змінити колір</translation>
+    </message>
+    <message>
+      <source>Unable to Save</source>
+      <translation>Не вдалося зберегти</translation>
+    </message>
+    <message>
+      <source>Cannot bind axis values more than once</source>
+      <translation>Неможливо пере назначити кнопку більше одного разу</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Зберегти</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Застосувати</translation>
+    </message>
+    <message>
+      <source>Restore Defaults</source>
+      <translation>За замовчуванням</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Відмінити</translation>
+    </message>
+  </context>
+  <context>
+    <name>EditorDialog</name>
+    <message>
+      <source>Edit Keyboard + Mouse and Controller input bindings</source>
+      <translation>Налаштування клавіатури, миші та перевизначення кнопок контролеру</translation>
+    </message>
+    <message>
+      <source>Use Per-Game configs</source>
+      <translation>Використовувати ігрові конфігурації</translation>
+    </message>
+    <message>
+      <source>Error</source>
+      <translation>Помилка</translation>
+    </message>
+    <message>
+      <source>Could not open the file for reading</source>
+      <translation>Не вдалося відкрити файл для читання</translation>
+    </message>
+    <message>
+      <source>Could not open the file for writing</source>
+      <translation>Не вдалось відкрити файл для запису</translation>
+    </message>
+    <message>
+      <source>Save Changes</source>
+      <translation>Зберегти зміни</translation>
+    </message>
+    <message>
+      <source>Do you want to save changes?</source>
+      <translation>Бажаєте зберегти зміни?</translation>
+    </message>
+    <message>
+      <source>Help</source>
+      <translation>Допомога</translation>
+    </message>
+    <message>
+      <source>Do you want to reset your custom default config to the original default config?</source>
+      <translation>Ви бажаєте скинути ваші налаштування за замовчуванням до початкової конфігурації?</translation>
+    </message>
+    <message>
+      <source>Do you want to reset this config to your custom default config?</source>
+      <translation>Ви бажаєте скинути ці налаштування до вашої конфігурації за замовчуванням?</translation>
+    </message>
+    <message>
+      <source>Reset to Default</source>
+      <translation>Відновити налаштування за замовчанням</translation>
     </message>
   </context>
   <context>
@@ -576,7 +655,7 @@
     </message>
     <message>
       <source>Directory to install DLC</source>
-      <translation type="unfinished">Directory to install DLC</translation>
+      <translation>Папка для встановлення DLC</translation>
     </message>
   </context>
   <context>
@@ -768,6 +847,10 @@
       <translation>Видалити DLC</translation>
     </message>
     <message>
+      <source>Delete Trophy</source>
+      <translation>Видалити трофей</translation>
+    </message>
+    <message>
       <source>Compatibility...</source>
       <translation>Сумісність...</translation>
     </message>
@@ -800,10 +883,6 @@
       <translation>Помилка при створенні ярлика!</translation>
     </message>
     <message>
-      <source>Install PKG</source>
-      <translation>Встановити PKG</translation>
-    </message>
-    <message>
       <source>Game</source>
       <translation>гри</translation>
     </message>
@@ -821,7 +900,7 @@
     </message>
     <message>
       <source>DLC</source>
-      <translation type="unfinished">DLC</translation>
+      <translation>DLC</translation>
     </message>
     <message>
       <source>Delete %1</source>
@@ -844,35 +923,266 @@
       <translation>Ця гра не має папки оновленнь, щоб відкрити її!</translation>
     </message>
     <message>
+      <source>No log file found for this game!</source>
+      <translation>Файл звіту для цієї гри не знайдено!</translation>
+    </message>
+    <message>
       <source>Failed to convert icon.</source>
-      <translation type="unfinished">Failed to convert icon.</translation>
+      <translation>Не вдалося конвертувати значок.</translation>
     </message>
     <message>
       <source>This game has no save data to delete!</source>
       <translation>Ця гра не містить збережень, які можна видалити!</translation>
     </message>
     <message>
+      <source>This game has no saved trophies to delete!</source>
+      <translation>Ця гра немає збережених трофеїв для видалення!</translation>
+    </message>
+    <message>
       <source>Save Data</source>
       <translation>Збереження</translation>
     </message>
+    <message>
+      <source>Trophy</source>
+      <translation>Трофеї</translation>
+    </message>
+    <message>
+      <source>SFO Viewer for </source>
+      <translation>Перегляд SFO </translation>
+    </message>
   </context>
   <context>
-    <name>InstallDirSelect</name>
+    <name>HelpDialog</name>
     <message>
-      <source>shadPS4 - Choose directory</source>
-      <translation>shadPS4 - Виберіть папку</translation>
+      <source>Quickstart</source>
+      <translation>Швидкий старт</translation>
     </message>
     <message>
-      <source>Select which directory you want to install to.</source>
-      <translation>Виберіть папку, до якої ви хочете встановити.</translation>
+      <source>FAQ</source>
+      <translation>ЧаПи</translation>
     </message>
     <message>
-      <source>Install All Queued to Selected Folder</source>
-      <translation>Встановити все з черги до вибраної папки</translation>
+      <source>Syntax</source>
+      <translation>Синтаксис</translation>
     </message>
     <message>
-      <source>Delete PKG File on Install</source>
-      <translation>Видалити файл PKG під час встановлення</translation>
+      <source>Special Bindings</source>
+      <translation>Спеціальні прив'язки</translation>
+    </message>
+    <message>
+      <source>Keybindings</source>
+      <translation>Призначення клавіш</translation>
+    </message>
+  </context>
+  <context>
+    <name>KBMSettings</name>
+    <message>
+      <source>Configure Controls</source>
+      <translation>Налаштування елементів керування</translation>
+    </message>
+    <message>
+      <source>D-Pad</source>
+      <translation>Хрестовина</translation>
+    </message>
+    <message>
+      <source>Up</source>
+      <translation>Вгору</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>не назначено</translation>
+    </message>
+    <message>
+      <source>Left</source>
+      <translation>Ліворуч</translation>
+    </message>
+    <message>
+      <source>Right</source>
+      <translation>Праворуч</translation>
+    </message>
+    <message>
+      <source>Down</source>
+      <translation>Вниз</translation>
+    </message>
+    <message>
+      <source>Left Analog Halfmode</source>
+      <translation>Напіврежим лівого аналогового стику</translation>
+    </message>
+    <message>
+      <source>hold to move left stick at half-speed</source>
+      <translation>утримуйте щоб рухати лівий стик в половину швидкості</translation>
+    </message>
+    <message>
+      <source>Left Stick</source>
+      <translation>Лівий стик</translation>
+    </message>
+    <message>
+      <source>Config Selection</source>
+      <translation>Вибір конфігурації</translation>
+    </message>
+    <message>
+      <source>Common Config</source>
+      <translation>Загальна конфігурація</translation>
+    </message>
+    <message>
+      <source>Use per-game configs</source>
+      <translation>Використовувати ігрові конфігурації</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation>L1 / Лівий Бампер</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation>L2 / Лівий Тригер</translation>
+    </message>
+    <message>
+      <source>Text Editor</source>
+      <translation>Текстовий редактор</translation>
+    </message>
+    <message>
+      <source>Help</source>
+      <translation>Довідка</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation>R1 / Правий Бампер</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation>R2 / Правий Тригер</translation>
+    </message>
+    <message>
+      <source>L3</source>
+      <translation>Кнопка лівого стику</translation>
+    </message>
+    <message>
+      <source>Touchpad Click</source>
+      <translation>Натискання на сенсорну панель</translation>
+    </message>
+    <message>
+      <source>Mouse to Joystick</source>
+      <translation>Миша в джойстик</translation>
+    </message>
+    <message>
+      <source>*press F7 ingame to activate</source>
+      <translation>*натисніть F7 у грі для увімкнення</translation>
+    </message>
+    <message>
+      <source>R3</source>
+      <translation>Кнопка правого стику</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>Опції</translation>
+    </message>
+    <message>
+      <source>Mouse Movement Parameters</source>
+      <translation>Параметри руху миші</translation>
+    </message>
+    <message>
+      <source>note: click Help Button/Special Keybindings for more information</source>
+      <translation>замітка: натисніть кнопку Довідки/Спеціального Призначення клавіш для отримання додаткової інформації</translation>
+    </message>
+    <message>
+      <source>Face Buttons</source>
+      <translation>Лицьові кнопки</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation>Трикутник</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation>Квадрат</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation>Коло</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation>Хрест</translation>
+    </message>
+    <message>
+      <source>Right Analog Halfmode</source>
+      <translation>Напіврежим правого аналогового стику</translation>
+    </message>
+    <message>
+      <source>hold to move right stick at half-speed</source>
+      <translation>утримуйте щоб рухати правий стик в половину швидкості</translation>
+    </message>
+    <message>
+      <source>Right Stick</source>
+      <translation>Правий стик</translation>
+    </message>
+    <message>
+      <source>Speed Offset (def 0.125):</source>
+      <translation>Зміщення швидкості (замовч 0,125):</translation>
+    </message>
+    <message>
+      <source>Copy from Common Config</source>
+      <translation>Копіювати з Загальної конфігурації</translation>
+    </message>
+    <message>
+      <source>Deadzone Offset (def 0.50):</source>
+      <translation>Зміщення мертвої зони (замовч 0,50):</translation>
+    </message>
+    <message>
+      <source>Speed Multiplier (def 1.0):</source>
+      <translation>Модифікатор швидкості (замовч 1,0):</translation>
+    </message>
+    <message>
+      <source>Common Config Selected</source>
+      <translation>Вибрані Загальні налаштування</translation>
+    </message>
+    <message>
+      <source>This button copies mappings from the Common Config to the currently selected profile, and cannot be used when the currently selected profile is the Common Config.</source>
+      <translation>Ця кнопка копіює перепризначення кнопок із Загальної конфігурації до поточного вибраного профілю, і не може бути використана, якщо поточний вибраний профіль є загальною конфігурацією.</translation>
+    </message>
+    <message>
+      <source>Copy values from Common Config</source>
+      <translation>Копіювати значення з Загальної конфігурації</translation>
+    </message>
+    <message>
+      <source>Do you want to overwrite existing mappings with the mappings from the Common Config?</source>
+      <translation>Ви бажаєте перезаписати наявні перепризначення кнопок з загальної конфігурації?</translation>
+    </message>
+    <message>
+      <source>Unable to Save</source>
+      <translation>Не вдалося зберегти</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once</source>
+      <translation>Не можна прив'язати кнопку вводу більш ніж один раз</translation>
+    </message>
+    <message>
+      <source>Press a key</source>
+      <translation>Натисніть клавішу</translation>
+    </message>
+    <message>
+      <source>Cannot set mapping</source>
+      <translation>Не вдалося встановити прив'язку</translation>
+    </message>
+    <message>
+      <source>Mousewheel cannot be mapped to stick outputs</source>
+      <translation>Коліщатко миші не можна прив'язати зі значенням стиків</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Зберегти</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Застосувати</translation>
+    </message>
+    <message>
+      <source>Restore Defaults</source>
+      <translation>За замовчуванням</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Відмінити</translation>
     </message>
   </context>
   <context>
@@ -880,10 +1190,6 @@
     <message>
       <source>Open/Add Elf Folder</source>
       <translation>Відкрити/Додати папку Elf</translation>
-    </message>
-    <message>
-      <source>Install Packages (PKG)</source>
-      <translation>Встановити пакети (PKG)</translation>
     </message>
     <message>
       <source>Boot Game</source>
@@ -900,10 +1206,6 @@
     <message>
       <source>Configure...</source>
       <translation>Налаштувати...</translation>
-    </message>
-    <message>
-      <source>Install application from a .pkg file</source>
-      <translation>Встановити додаток з файлу .pkg</translation>
     </message>
     <message>
       <source>Recent Games</source>
@@ -974,8 +1276,12 @@
       <translation>Дамп списку ігор</translation>
     </message>
     <message>
-      <source>PKG Viewer</source>
-      <translation>Перегляд PKG</translation>
+      <source>Trophy Viewer</source>
+      <translation type="unfinished">Trophy Viewer</translation>
+    </message>
+    <message>
+      <source>No games found. Please add your games to your library first.</source>
+      <translation type="unfinished">No games found. Please add your games to your library first.</translation>
     </message>
     <message>
       <source>Search...</source>
@@ -1086,159 +1392,60 @@
       <translation>Можна вибрати лише один файл!</translation>
     </message>
     <message>
-      <source>PKG Extraction</source>
-      <translation>Розпакування PKG</translation>
-    </message>
-    <message>
-      <source>Patch detected!</source>
-      <translation>Виявлено патч!</translation>
-    </message>
-    <message>
-      <source>PKG and Game versions match: </source>
-      <translation>Версії PKG та гри збігаються: </translation>
-    </message>
-    <message>
-      <source>Would you like to overwrite?</source>
-      <translation>Бажаєте перезаписати?</translation>
-    </message>
-    <message>
-      <source>PKG Version %1 is older than installed version: </source>
-      <translation>Версія PKG %1 старіша за встановлену версію: </translation>
-    </message>
-    <message>
-      <source>Game is installed: </source>
-      <translation>Встановлена гра: </translation>
-    </message>
-    <message>
-      <source>Would you like to install Patch: </source>
-      <translation>Бажаєте встановити патч: </translation>
-    </message>
-    <message>
-      <source>DLC Installation</source>
-      <translation>Встановлення DLC</translation>
-    </message>
-    <message>
-      <source>Would you like to install DLC: %1?</source>
-      <translation>Ви бажаєте встановити DLC: %1?</translation>
-    </message>
-    <message>
-      <source>DLC already installed:</source>
-      <translation>DLC вже встановлено:</translation>
-    </message>
-    <message>
-      <source>Game already installed</source>
-      <translation>Гра вже встановлена</translation>
-    </message>
-    <message>
-      <source>PKG ERROR</source>
-      <translation>ПОМИЛКА PKG</translation>
-    </message>
-    <message>
-      <source>Extracting PKG %1/%2</source>
-      <translation>Витягування PKG %1/%2</translation>
-    </message>
-    <message>
-      <source>Extraction Finished</source>
-      <translation>Розпакування завершено</translation>
-    </message>
-    <message>
-      <source>Game successfully installed at %1</source>
-      <translation>Гру успішно встановлено у %1</translation>
-    </message>
-    <message>
-      <source>File doesn&apos;t appear to be a valid PKG file</source>
-      <translation>Файл не є дійсним PKG-файлом</translation>
-    </message>
-    <message>
       <source>Run Game</source>
-      <translation type="unfinished">Run Game</translation>
+      <translation>Запустити гру</translation>
     </message>
     <message>
       <source>Eboot.bin file not found</source>
-      <translation type="unfinished">Eboot.bin file not found</translation>
-    </message>
-    <message>
-      <source>PKG File (*.PKG *.pkg)</source>
-      <translation type="unfinished">PKG File (*.PKG *.pkg)</translation>
-    </message>
-    <message>
-      <source>PKG is a patch or DLC, please install the game first!</source>
-      <translation type="unfinished">PKG is a patch or DLC, please install the game first!</translation>
+      <translation>Файл Boot.bin не знайдено</translation>
     </message>
     <message>
       <source>Game is already running!</source>
-      <translation type="unfinished">Game is already running!</translation>
+      <translation>Гра вже запущена!</translation>
     </message>
     <message>
       <source>shadPS4</source>
-      <translation type="unfinished">shadPS4</translation>
-    </message>
-  </context>
-  <context>
-    <name>PKGViewer</name>
-    <message>
-      <source>Open Folder</source>
-      <translation>Відкрити папку</translation>
+      <translation>shadPS4</translation>
     </message>
     <message>
-      <source>PKG ERROR</source>
-      <translation>ПОМИЛКА PKG</translation>
+      <source>Play</source>
+      <translation type="unfinished">Play</translation>
     </message>
     <message>
-      <source>Name</source>
-      <translation>Назва</translation>
+      <source>Pause</source>
+      <translation type="unfinished">Pause</translation>
     </message>
     <message>
-      <source>Serial</source>
-      <translation>Серійний номер</translation>
+      <source>Stop</source>
+      <translation type="unfinished">Stop</translation>
     </message>
     <message>
-      <source>Installed</source>
-      <translation type="unfinished">Installed</translation>
+      <source>Restart</source>
+      <translation type="unfinished">Restart</translation>
     </message>
     <message>
-      <source>Size</source>
-      <translation>Розмір</translation>
+      <source>Full Screen</source>
+      <translation type="unfinished">Full Screen</translation>
     </message>
     <message>
-      <source>Category</source>
-      <translation type="unfinished">Category</translation>
+      <source>Controllers</source>
+      <translation type="unfinished">Controllers</translation>
     </message>
     <message>
-      <source>Type</source>
-      <translation type="unfinished">Type</translation>
+      <source>Keyboard</source>
+      <translation type="unfinished">Keyboard</translation>
     </message>
     <message>
-      <source>App Ver</source>
-      <translation type="unfinished">App Ver</translation>
+      <source>Refresh List</source>
+      <translation type="unfinished">Refresh List</translation>
     </message>
     <message>
-      <source>FW</source>
-      <translation type="unfinished">FW</translation>
+      <source>Resume</source>
+      <translation type="unfinished">Resume</translation>
     </message>
     <message>
-      <source>Region</source>
-      <translation>Регіон</translation>
-    </message>
-    <message>
-      <source>Flags</source>
-      <translation type="unfinished">Flags</translation>
-    </message>
-    <message>
-      <source>Path</source>
-      <translation>Шлях</translation>
-    </message>
-    <message>
-      <source>File</source>
-      <translation>Файл</translation>
-    </message>
-    <message>
-      <source>Unknown</source>
-      <translation>Невідомо</translation>
-    </message>
-    <message>
-      <source>Package</source>
-      <translation type="unfinished">Package</translation>
+      <source>Show Labels Under Icons</source>
+      <translation type="unfinished">Show Labels Under Icons</translation>
     </message>
   </context>
   <context>
@@ -1266,14 +1473,6 @@
     <message>
       <source>Emulator</source>
       <translation>Емулятор</translation>
-    </message>
-    <message>
-      <source>Enable Fullscreen</source>
-      <translation>Увімкнути повноекранний режим</translation>
-    </message>
-    <message>
-      <source>Fullscreen Mode</source>
-      <translation>Тип повноекранного режиму</translation>
     </message>
     <message>
       <source>Enable Separate Update Folder</source>
@@ -1306,6 +1505,10 @@
     <message>
       <source>Trophy</source>
       <translation>Трофеї</translation>
+    </message>
+    <message>
+      <source>Open the custom trophy images/sounds folder</source>
+      <translation>Відкрити папку користувацьких зображень трофеїв/звуків</translation>
     </message>
     <message>
       <source>Logger</source>
@@ -1368,14 +1571,6 @@
       <translation>Графічний пристрій</translation>
     </message>
     <message>
-      <source>Width</source>
-      <translation>Ширина</translation>
-    </message>
-    <message>
-      <source>Height</source>
-      <translation>Висота</translation>
-    </message>
-    <message>
       <source>Vblank Divider</source>
       <translation>Розділювач Vblank</translation>
     </message>
@@ -1393,7 +1588,7 @@
     </message>
     <message>
       <source>Enable HDR</source>
-      <translation type="unfinished">Enable HDR</translation>
+      <translation>Увімкнути HDR</translation>
     </message>
     <message>
       <source>Paths</source>
@@ -1480,8 +1675,8 @@
       <translation>Титульна музика</translation>
     </message>
     <message>
-      <source>Disable Trophy Pop-ups</source>
-      <translation>Вимкнути спливаючі вікна трофеїв</translation>
+      <source>Disable Trophy Notification</source>
+      <translation>Вимкнути сповіщення про отримання трофею</translation>
     </message>
     <message>
       <source>Background Image</source>
@@ -1540,83 +1735,79 @@
       <translation>Наведіть курсор миші на опцію, щоб відобразити її опис.</translation>
     </message>
     <message>
-      <source>consoleLanguageGroupBox</source>
+      <source>Console Language:\nSets the language that the PS4 game uses.\nIt&apos;s recommended to set this to a language the game supports, which will vary by region.</source>
       <translation>Мова консолі:\nВстановіть мову, яка буде використовуватись у іграх PS4.\nРекомендується встановити мову котра підтримується грою, оскільки вона може відрізнятися в залежності від регіону.</translation>
     </message>
     <message>
-      <source>emulatorLanguageGroupBox</source>
+      <source>Emulator Language:\nSets the language of the emulator&apos;s user interface.</source>
       <translation>Мова емулятора:\nВстановіть мову користувацького інтерфейсу емулятора.</translation>
     </message>
     <message>
-      <source>fullscreenCheckBox</source>
-      <translation>Повноекранний режим:\nАвтоматично переводить вікно гри у повноекранний режим.\nВи можете відключити це, натиснувши клавішу F11.</translation>
-    </message>
-    <message>
-      <source>separateUpdatesCheckBox</source>
+      <source>Enable Separate Update Folder:\nEnables installing game updates into a separate folder for easy management.\nThis can be manually created by adding the extracted update to the game folder with the name &quot;CUSA00000-UPDATE&quot; where the CUSA ID matches the game&apos;s ID.</source>
       <translation>Окрема папка для оновлень:\nДає змогу встановлювати оновлення гри в окрему папку для зручності.</translation>
     </message>
     <message>
-      <source>showSplashCheckBox</source>
+      <source>Show Splash Screen:\nShows the game&apos;s splash screen (a special image) while the game is starting.</source>
       <translation>Показувати заставку:\nВідображає заставку гри (спеціальне зображення) під час запуску гри.</translation>
     </message>
     <message>
-      <source>discordRPCCheckbox</source>
+      <source>Enable Discord Rich Presence:\nDisplays the emulator icon and relevant information on your Discord profile.</source>
       <translation>Увімкнути Discord Rich Presence:\nВідображає значок емулятора та відповідну інформацію у вашому профілі Discord.</translation>
     </message>
     <message>
-      <source>userName</source>
+      <source>Username:\nSets the PS4&apos;s account username, which may be displayed by some games.</source>
       <translation>Ім&apos;я користувача:\nВстановіть ім&apos;я користувача акаунта PS4. Воно може відображатися в деяких іграх.</translation>
     </message>
     <message>
-      <source>TrophyKey</source>
+      <source>Trophy Key:\nKey used to decrypt trophies. Must be obtained from your jailbroken console.\nMust contain only hex characters.</source>
       <translation>Ключ трофеїв:\nКлюч для розшифровки трофеїв. Може бути отриманий зі зламаної консолі.\nПовинен містити лише шістнадцяткові символи.</translation>
     </message>
     <message>
-      <source>logTypeGroupBox</source>
+      <source>Log Type:\nSets whether to synchronize the output of the log window for performance. May have adverse effects on emulation.</source>
       <translation>Тип логів:\nВстановіть, чи синхронізувати виведення вікна логів заради продуктивності. Це може негативно вплинути на емуляцію.</translation>
     </message>
     <message>
-      <source>logFilter</source>
+      <source>Log Filter:\nFilters the log to only print specific information.\nExamples: &quot;Core:Trace&quot; &quot;Lib.Pad:Debug Common.Filesystem:Error&quot; &quot;*:Critical&quot;\nLevels: Trace, Debug, Info, Warning, Error, Critical - in this order, a specific level silences all levels preceding it in the list and logs every level after it.</source>
       <translation>Фільтр логів:\nФільтрує логи, щоб показувати тільки певну інформацію.\nПриклади: &quot;Core:Trace&quot; &quot;Lib.Pad:Debug Common.Filesystem:Error&quot; &quot;*:Critical&quot; Рівні: Trace, Debug, Info, Warning, Error, Critical - у цьому порядку, конкретний рівень глушить усі попередні рівні у списку і показує всі наступні рівні.</translation>
     </message>
     <message>
-      <source>updaterGroupBox</source>
+      <source>Update:\nRelease: Official versions released every month that may be very outdated, but are more reliable and tested.\nNightly: Development versions that have all the latest features and fixes, but may contain bugs and are less stable.</source>
       <translation>Оновлення:\nРелізний: Офіційні версії, які випускаються щомісяця і можуть бути дуже старими, але вони більш надійні та перевірені.\nТестовий: Версії для розробників, які мають усі найновіші функції та виправлення, але можуть містити помилки та є менш стабільними.</translation>
     </message>
     <message>
-      <source>GUIBackgroundImageGroupBox</source>
+      <source>Background Image:\nControl the opacity of the game background image.</source>
       <translation>Фонове зображення:\nКерує непрозорістю фонового зображення гри.</translation>
     </message>
     <message>
-      <source>GUIMusicGroupBox</source>
+      <source>Play Title Music:\nIf a game supports it, enable playing special music when selecting the game in the GUI.</source>
       <translation>Грати титульну музику:\nВмикає відтворення спеціальної музики під час вибору гри в списку, якщо вона це підтримує.</translation>
     </message>
     <message>
-      <source>disableTrophycheckBox</source>
+      <source>Disable Trophy Pop-ups:\nDisable in-game trophy notifications. Trophy progress can still be tracked using the Trophy Viewer (right-click the game in the main window).</source>
       <translation>Вимкнути спливаючі вікна трофеїв:\nВимикає сповіщення про ігрові трофеї. Прогрес трофея все ще можна відстежувати за допомогою &quot;Перегляд трофеїв&quot; (клацніть правою кнопкою миші на грі у головному вікні).</translation>
     </message>
     <message>
-      <source>hideCursorGroupBox</source>
+      <source>Hide Cursor:\nChoose when the cursor will disappear:\nNever: You will always see the mouse.\nidle: Set a time for it to disappear after being idle.\nAlways: you will never see the mouse.</source>
       <translation>Приховувати курсор:\nВиберіть, коли курсор зникатиме:\nНіколи: Курсор миші завжди буде видимий.\nПри бездіяльності: Встановіть час, через який курсор зникне в разі бездіяльності.\nЗавжди: Курсор миші завжди буде прихований.</translation>
     </message>
     <message>
-      <source>idleTimeoutGroupBox</source>
+      <source>Hide Idle Cursor Timeout:\nThe duration (seconds) after which the cursor that has been idle hides itself.</source>
       <translation>Встановіть час, через який курсор зникне в разі бездіяльності.</translation>
     </message>
     <message>
-      <source>backButtonBehaviorGroupBox</source>
+      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
       <translation>Перепризначення кнопки «Назад»:\nНалаштовує кнопку «Назад» контролера на емуляцію натискання на зазначену область на сенсорній панелі контролера PS4.</translation>
     </message>
     <message>
-      <source>enableCompatibilityCheckBox</source>
+      <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
       <translation>Відображати данні ігрової сумістністі:\nВідображає інформацію про сумісність ігор у вигляді таблиці. Увімкніть &quot;Оновлення даних ігрової сумісності під час запуску&quot; для отримання актуальної інформації.</translation>
     </message>
     <message>
-      <source>checkCompatibilityOnStartupCheckBox</source>
+      <source>Update Compatibility On Startup:\nAutomatically update the compatibility database when shadPS4 starts.</source>
       <translation>Оновлення даних ігрової сумісності під час запуску:\nАвтоматично оновлює базу даних ігрової сумісності під час запуску shadPS4.</translation>
     </message>
     <message>
-      <source>updateCompatibilityButton</source>
+      <source>Update Compatibility Database:\nImmediately update the compatibility database.</source>
       <translation>Оновити данні ігрової сумістності:\nНегайно оновить базу даних ігрової сумісності.</translation>
     </message>
     <message>
@@ -1648,92 +1839,84 @@
       <translation>Без змін</translation>
     </message>
     <message>
-      <source>graphicsAdapterGroupBox</source>
+      <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
       <translation>Графічний пристрій:\nУ системах із кількома GPU виберіть з випадаючого списку GPU, який буде використовувати емулятор,\nабо виберіть &quot;Автовибір&quot;, щоб визначити його автоматично.</translation>
     </message>
     <message>
-      <source>resolutionLayout</source>
+      <source>Width/Height:\nSets the size of the emulator window at launch, which can be resized during gameplay.\nThis is different from the in-game resolution.</source>
       <translation>Ширина/Висота:\nВстановіть розмір вікна емулятора під час запуску, який може бути змінений під час гри.\nЦе відрізняється від роздільної здатності в грі.</translation>
     </message>
     <message>
-      <source>heightDivider</source>
+      <source>Vblank Divider:\nThe frame rate at which the emulator refreshes at is multiplied by this number. Changing this may have adverse effects, such as increasing the game speed, or breaking critical game functionality that does not expect this to change!</source>
       <translation>Розділювач Vblank:\nЧастота кадрів, з якою оновлюється емулятор, множиться на це число. Зміна цього параметра може мати негативні наслідки, такі як збільшення швидкості гри або порушення критичних функцій гри, які цього не очікують!</translation>
     </message>
     <message>
-      <source>dumpShadersCheckBox</source>
+      <source>Enable Shaders Dumping:\nFor the sake of technical debugging, saves the games shaders to a folder as they render.</source>
       <translation>Увімкнути дамп шейдерів:\nДля технічного налагодження зберігає шейдери ігор у папку під час рендерингу.</translation>
     </message>
     <message>
-      <source>nullGpuCheckBox</source>
+      <source>Enable Null GPU:\nFor the sake of technical debugging, disables game rendering as if there were no graphics card.</source>
       <translation>Увімкнути NULL GPU:\nДля технічного налагодження відключає рендеринг гри так, ніби графічної карти немає.</translation>
     </message>
     <message>
-      <source>enableHDRCheckBox</source>
-      <translation type="unfinished">enableHDRCheckBox</translation>
+      <source>Enable HDR:\nEnables HDR in games that support it.\nYour monitor must have support for the BT2020 PQ color space and the RGB10A2 swapchain format.</source>
+      <translation>Увімкнути HDR:\nУвімкнути HDR в іграх, які його підтримують.\nВаш монітор повинен мати колірний простір BT2020 PQ та формат swapchain RGB10A2.</translation>
     </message>
     <message>
-      <source>gameFoldersBox</source>
+      <source>Game Folders:\nThe list of folders to check for installed games.</source>
       <translation>Ігрові папки:\nСписок папок, що скануватимуться для виявлення ігор.</translation>
     </message>
     <message>
-      <source>addFolderButton</source>
+      <source>Add:\nAdd a folder to the list.</source>
       <translation>Додати:\nДодати папку в список.</translation>
     </message>
     <message>
-      <source>removeFolderButton</source>
+      <source>Remove:\nRemove a folder from the list.</source>
       <translation>Вилучити:\nВилучити папку зі списку.</translation>
     </message>
     <message>
-      <source>debugDump</source>
+      <source>Enable Debug Dumping:\nSaves the import and export symbols and file header information of the currently running PS4 program to a directory.</source>
       <translation>Увімкнути налагоджувальні дампи:\nЗберігає символи імпорту, експорту та інформацію про заголовок файлу поточної виконуваної програми PS4 у папку.</translation>
     </message>
     <message>
-      <source>vkValidationCheckBox</source>
+      <source>Enable Vulkan Validation Layers:\nEnables a system that validates the state of the Vulkan renderer and logs information about its internal state.\nThis will reduce performance and likely change the behavior of emulation.</source>
       <translation>Увімкнути шари валідації Vulkan:\nВключає систему, яка перевіряє стан рендерера Vulkan і логує інформацію про його внутрішній стан. Це знизить продуктивність і, ймовірно, змінить поведінку емуляції.</translation>
     </message>
     <message>
-      <source>vkSyncValidationCheckBox</source>
+      <source>Enable Vulkan Synchronization Validation:\nEnables a system that validates the timing of Vulkan rendering tasks.\nThis will reduce performance and likely change the behavior of emulation.</source>
       <translation>Увімкнути валідацію синхронізації Vulkan:\nВключає систему, яка перевіряє таймінг завдань рендерингу Vulkan. Це знизить продуктивність і, ймовірно, змінить поведінку емуляції.</translation>
     </message>
     <message>
-      <source>rdocCheckBox</source>
+      <source>Enable RenderDoc Debugging:\nIf enabled, the emulator will provide compatibility with Renderdoc to allow capture and analysis of the currently rendered frame.</source>
       <translation>Увімкнути налагодження RenderDoc:\nЯкщо увімкнено, емулятор забезпечить сумісність із Renderdoc, даючи змогу захоплювати й аналізувати поточні кадри під час рендерингу.</translation>
     </message>
     <message>
-      <source>collectShaderCheckBox</source>
+      <source>Collect Shaders:\nYou need this enabled to edit shaders with the debug menu (Ctrl + F10).</source>
       <translation>Збирати шейдери:\nВам потрібно увімкнути цю опцію, щоб редагувати шейдери за допомогою меню налагодження (Ctrl + F10).</translation>
     </message>
     <message>
-      <source>crashDiagnosticsCheckBox</source>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
       <translation>Діагностика збоїв:\nСтворює .yaml файл з інформацією про стан Vulkan на момент збою.\nКорисно для налагодження помилок &apos;Device lost&apos;. Якщо у вас увімкнено цей параметр, вам слід увімкнути маркери налагодження Хоста ТА Гостя.\nНе працює на графічних процесорах Intel.\nДля цього вам потрібно увімкнути шари валідації Vulkan і мати Vulkan SDK.</translation>
     </message>
     <message>
-      <source>copyGPUBuffersCheckBox</source>
+      <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
       <translation>Копіювати буфери GPU:\nДозволяє обійти проблеми синхронізації, пов&apos;язані з відправленням даних на GPU\nМоже як допомогти, так і не вплинути на збої типу PM4 (тип 0).</translation>
     </message>
     <message>
-      <source>hostMarkersCheckBox</source>
+      <source>Host Debug Markers:\nInserts emulator-side information like markers for specific AMDGPU commands around Vulkan commands, as well as giving resources debug names.\nIf you have this enabled, you should enable Crash Diagnostics.\nUseful for programs like RenderDoc.</source>
       <translation>Хостові маркери налагодження:\nДодає інформацію емулятора, наприклад маркери для конкретних команд AMDGPU у Vulkan, також присвоює ресурсам налагоджувані назви.\nЯкщо ця опція увімкнена, рекомендується також активувати діагностику збоїв.\nКорисно для програм на кшталт RenderDoc.</translation>
     </message>
     <message>
-      <source>guestMarkersCheckBox</source>
+      <source>Guest Debug Markers:\nInserts any debug markers the game itself has added to the command buffer.\nIf you have this enabled, you should enable Crash Diagnostics.\nUseful for programs like RenderDoc.</source>
       <translation>Гостьові маркери налагодження:\nВставляє налагоджувані маркери, які сама гра додала до командного буфера.\nЯкщо ця опція увімкнена, рекомендується також активувати діагностику збоїв.\nКорисно для програм на кшталт RenderDoc.</translation>
     </message>
     <message>
-      <source>saveDataBox</source>
+      <source>Save Data Path:\nThe folder where game save data will be saved.</source>
       <translation>Шлях до файлів збережень:\nПапка, де будуть зберігатися ігрові збереження.</translation>
     </message>
     <message>
-      <source>browseButton</source>
+      <source>Browse:\nBrowse for a folder to set as the save data path.</source>
       <translation>Вибрати:\nВиберіть папку для ігрових збережень.</translation>
-    </message>
-    <message>
-      <source>Borderless</source>
-      <translation>Без рамок</translation>
-    </message>
-    <message>
-      <source>True</source>
-      <translation>Повний екран</translation>
     </message>
     <message>
       <source>Release</source>
@@ -1745,7 +1928,7 @@
     </message>
     <message>
       <source>Set the volume of the background music.</source>
-      <translation type="unfinished">Set the volume of the background music.</translation>
+      <translation>Налаштування гучності фонової музики.</translation>
     </message>
     <message>
       <source>Enable Motion Controls</source>
@@ -1777,7 +1960,103 @@
     </message>
     <message>
       <source>Directory to save data</source>
-      <translation type="unfinished">Directory to save data</translation>
+      <translation>Папка для збереження даних</translation>
+    </message>
+    <message>
+      <source>Video</source>
+      <translation>Відео</translation>
+    </message>
+    <message>
+      <source>Display Mode</source>
+      <translation>Режим відображення</translation>
+    </message>
+    <message>
+      <source>Windowed</source>
+      <translation>У вікні</translation>
+    </message>
+    <message>
+      <source>Fullscreen</source>
+      <translation>Повноекранний</translation>
+    </message>
+    <message>
+      <source>Fullscreen (Borderless)</source>
+      <translation>Повний екран (без рамок)</translation>
+    </message>
+    <message>
+      <source>Window Size</source>
+      <translation>Розмір вікна</translation>
+    </message>
+    <message>
+      <source>W:</source>
+      <translation>Висота:</translation>
+    </message>
+    <message>
+      <source>H:</source>
+      <translation>Ширина:</translation>
+    </message>
+    <message>
+      <source>Separate Log Files</source>
+      <translation>Окремі файли журналу</translation>
+    </message>
+    <message>
+      <source>Separate Log Files:\nWrites a separate logfile for each game.</source>
+      <translation>Окремі файли журналу:\nЗаписує окремий файл журналу для кожної гри.</translation>
+    </message>
+    <message>
+      <source>Trophy Notification Position</source>
+      <translation>Розміщення сповіщень про трофеї</translation>
+    </message>
+    <message>
+      <source>Left</source>
+      <translation>Ліворуч</translation>
+    </message>
+    <message>
+      <source>Right</source>
+      <translation>Праворуч</translation>
+    </message>
+    <message>
+      <source>Top</source>
+      <translation>Вгорі</translation>
+    </message>
+    <message>
+      <source>Bottom</source>
+      <translation>Внизу</translation>
+    </message>
+    <message>
+      <source>Notification Duration</source>
+      <translation>Тривалість сповіщення</translation>
+    </message>
+    <message>
+      <source>Portable User Folder</source>
+      <translation>Портативна папка користувача</translation>
+    </message>
+    <message>
+      <source>Create Portable User Folder from Common User Folder</source>
+      <translation>Створити портативну папку користувача з загальної папки</translation>
+    </message>
+    <message>
+      <source>Portable user folder:\nStores shadPS4 settings and data that will be applied only to the shadPS4 build located in the current folder. Restart the app after creating the portable user folder to begin using it.</source>
+      <translation>Портативна папка користувача:\nЗберігає налаштування та дані shadPS4, які будуть застосовані лише до збірки shadPS4, розташованої у поточній теці. Перезапустіть програму після створення портативної теки користувача, щоб почати користуватися нею.</translation>
+    </message>
+    <message>
+      <source>Cannot create portable user folder</source>
+      <translation>Не вдалося створити портативну папку користувача</translation>
+    </message>
+    <message>
+      <source>%1 already exists</source>
+      <translation>%1 вже існує</translation>
+    </message>
+    <message>
+      <source>Portable user folder created</source>
+      <translation>Портативна папка користувача створена</translation>
+    </message>
+    <message>
+      <source>%1 successfully created.</source>
+      <translation>%1 успішно створено.</translation>
+    </message>
+    <message>
+      <source>Open the custom trophy images/sounds folder:\nYou can add custom images to the trophies and an audio.\nAdd the files to custom_trophy with the following names:\ntrophy.wav OR trophy.mp3, bronze.png, gold.png, platinum.png, silver.png\nNote: The sound will only work in QT versions.</source>
+      <translation>Відкрити папку користувацьких зображень трофеїв/звуків:\nВи можете додати користувацькі зображення до трофеїв та звук.\nДодайте файли до теки custom_trophy з такими назвами:\ntrophy.wav АБО trophy.mp3, bronze.png, gold.png, platinum.png, silver.png\nПримітка: Звук буде працювати лише у версіях ShadPS4 з графічним інтерфейсом.</translation>
     </message>
   </context>
   <context>
@@ -1785,6 +2064,26 @@
     <message>
       <source>Trophy Viewer</source>
       <translation>Трофеї</translation>
+    </message>
+    <message>
+      <source>Select Game:</source>
+      <translation type="unfinished">Select Game:</translation>
+    </message>
+    <message>
+      <source>Progress</source>
+      <translation>Прогрес</translation>
+    </message>
+    <message>
+      <source>Show Earned Trophies</source>
+      <translation>Показати отримані трофеї</translation>
+    </message>
+    <message>
+      <source>Show Not Earned Trophies</source>
+      <translation>Показати не отримані трофеї</translation>
+    </message>
+    <message>
+      <source>Show Hidden Trophies</source>
+      <translation>Показати приховані трофеї</translation>
     </message>
   </context>
 </TS>

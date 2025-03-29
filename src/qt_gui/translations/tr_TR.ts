@@ -10,10 +10,6 @@
       <translation>shadPS4 Hakkında</translation>
     </message>
     <message>
-      <source>shadPS4</source>
-      <translation type="unfinished">shadPS4</translation>
-    </message>
-    <message>
       <source>shadPS4 is an experimental open-source emulator for the PlayStation 4.</source>
       <translation>shadPS4, PlayStation 4 için deneysel bir açık kaynak kodlu emülatördür.</translation>
     </message>
@@ -26,15 +22,15 @@
     <name>CheatsPatches</name>
     <message>
       <source>Cheats / Patches for </source>
-      <translation type="unfinished">Cheats / Patches for </translation>
+      <translation>Hileler / Yamalar: </translation>
     </message>
     <message>
-      <source>defaultTextEdit_MSG</source>
-      <translation>Cheats/Patches deneysel niteliktedir.\nDikkatli kullanın.\n\nCheat&apos;leri ayrı ayrı indirerek, depo seçerek ve indirme düğmesine tıklayarak indirin.\nPatches sekmesinde tüm patch&apos;leri bir kerede indirebilir, hangi patch&apos;leri kullanmak istediğinizi seçebilir ve seçiminizi kaydedebilirsiniz.\n\nCheats/Patches&apos;i geliştirmediğimiz için,\nproblemleri cheat yazarına bildirin.\n\nYeni bir cheat mi oluşturduğunuz? Şu adresi ziyaret edin:\nhttps://github.com/shadps4-emu/ps4_cheats</translation>
+      <source>Cheats/Patches are experimental.\nUse with caution.\n\nDownload cheats individually by selecting the repository and clicking the download button.\nIn the Patches tab, you can download all patches at once, choose which ones you want to use, and save your selection.\n\nSince we do not develop the Cheats/Patches,\nplease report issues to the cheat author.\n\nCreated a new cheat? Visit:\n</source>
+      <translation>Hileler/Yamalar deneysel özelliklerdir.\nDikkatli kullanın.\n\nHileleri depo seçerek ve indirme düğmesine tıklayarak ayrı ayrı indirin.\nYamalar sekmesinde tüm yamaları tek seferde indirebilir, hangi yamaları kullanmak istediğinizi seçebilir ve seçiminizi kaydedebilirsiniz.\n\nHileleri ve yamaları biz geliştirmediğimiz için\nsorunlarınızı hile geliştiricisine bildirin.\n\nYeni bir hile oluşturduysanız şu adresi ziyaret edin:\n</translation>
     </message>
     <message>
       <source>No Image Available</source>
-      <translation>Görüntü Mevcut Değil</translation>
+      <translation>Kaynak Mevcut Değil</translation>
     </message>
     <message>
       <source>Serial: </source>
@@ -74,7 +70,7 @@
     </message>
     <message>
       <source>Do you want to delete the selected file?\n%1</source>
-      <translation>Seçilen dosyayı silmek istiyor musunuz?\n%1</translation>
+      <translation>Seçili dosyayı silmek istiyor musunuz?\n%1</translation>
     </message>
     <message>
       <source>Select Patch File:</source>
@@ -126,7 +122,7 @@
     </message>
     <message>
       <source>Success</source>
-      <translation>Başarı</translation>
+      <translation>Başarılı</translation>
     </message>
     <message>
       <source>Options saved successfully.</source>
@@ -142,11 +138,11 @@
     </message>
     <message>
       <source>File Exists</source>
-      <translation>Dosya Var</translation>
+      <translation>Dosya mevcut</translation>
     </message>
     <message>
       <source>File already exists. Do you want to replace it?</source>
-      <translation>Dosya zaten var. Üzerine yazmak ister misiniz?</translation>
+      <translation>Dosya zaten mevcut. Var olan dosyayı değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
       <source>Failed to save file:</source>
@@ -161,7 +157,7 @@
       <translation>Hileler Bulunamadı</translation>
     </message>
     <message>
-      <source>CheatsNotFound_MSG</source>
+      <source>No Cheats found for this game in this version of the selected repository,try another repository or a different version of the game.</source>
       <translation>Bu oyun için seçilen depoda hile bulunamadı.Başka bir depo veya oyun sürümü deneyin.</translation>
     </message>
     <message>
@@ -169,7 +165,7 @@
       <translation>Hileler Başarıyla İndirildi</translation>
     </message>
     <message>
-      <source>CheatsDownloadedSuccessfully_MSG</source>
+      <source>You have successfully downloaded the cheats for this version of the game from the selected repository. You can try downloading from another repository, if it is available it will also be possible to use it by selecting the file from the list.</source>
       <translation>Bu oyun sürümü için hileleri başarıyla indirdiniz. Başka bir depodan indirmeyi deneyebilirsiniz. Eğer mevcutsa, listeden dosyayı seçerek de kullanılabilir.</translation>
     </message>
     <message>
@@ -185,7 +181,7 @@
       <translation>İndirme Tamamlandı</translation>
     </message>
     <message>
-      <source>DownloadComplete_MSG</source>
+      <source>Patches Downloaded Successfully! All Patches available for all games have been downloaded, there is no need to download them individually for each game as happens in Cheats. If the patch does not appear, it may be that it does not exist for the specific serial and version of the game.</source>
       <translation>Yamalar başarıyla indirildi! Tüm oyunlar için mevcut tüm yamalar indirildi, her oyun için ayrı ayrı indirme yapmanız gerekmez, hilelerle olduğu gibi. Yamanın görünmemesi durumunda, belirli seri numarası ve oyun sürümü için mevcut olmayabilir.</translation>
     </message>
     <message>
@@ -230,7 +226,7 @@
     </message>
     <message>
       <source>Directory does not exist:</source>
-      <translation>Klasör mevcut değil:</translation>
+      <translation>Dizin mevcut değil:</translation>
     </message>
     <message>
       <source>Failed to open files.json for reading.</source>
@@ -264,7 +260,7 @@
       <translation>Ağ hatası:</translation>
     </message>
     <message>
-      <source>Error_Github_limit_MSG</source>
+      <source>The Auto Updater allows up to 60 update checks per hour.\nYou have reached this limit. Please try again later.</source>
       <translation>Otomatik Güncelleyici, saat başına en fazla 60 güncelleme kontrolüne izin verir.\nBu sınıra ulaştınız. Lütfen daha sonra tekrar deneyin.</translation>
     </message>
     <message>
@@ -411,127 +407,210 @@
     <name>ControlSettings</name>
     <message>
       <source>Configure Controls</source>
-      <translation type="unfinished">Configure Controls</translation>
-    </message>
-    <message>
-      <source>Control Settings</source>
-      <translation type="unfinished">Control Settings</translation>
+      <translation>Kontrolleri Yapılandır</translation>
     </message>
     <message>
       <source>D-Pad</source>
-      <translation type="unfinished">D-Pad</translation>
+      <translation>Yön Düğmeleri</translation>
     </message>
     <message>
       <source>Up</source>
-      <translation type="unfinished">Up</translation>
+      <translation>Yukarı</translation>
     </message>
     <message>
       <source>Left</source>
-      <translation type="unfinished">Left</translation>
+      <translation>Sol</translation>
     </message>
     <message>
       <source>Right</source>
-      <translation type="unfinished">Right</translation>
+      <translation>Sağ</translation>
     </message>
     <message>
       <source>Down</source>
-      <translation type="unfinished">Down</translation>
+      <translation>Aşağı</translation>
     </message>
     <message>
       <source>Left Stick Deadzone (def:2 max:127)</source>
-      <translation type="unfinished">Left Stick Deadzone (def:2 max:127)</translation>
+      <translation>Sol Analog Ölü Bölgesi (varsayılan: 2, en çok: 127)</translation>
     </message>
     <message>
       <source>Left Deadzone</source>
-      <translation type="unfinished">Left Deadzone</translation>
+      <translation>Sol Ölü Bölge</translation>
     </message>
     <message>
       <source>Left Stick</source>
-      <translation type="unfinished">Left Stick</translation>
+      <translation>Sol Analog</translation>
     </message>
     <message>
       <source>Config Selection</source>
-      <translation type="unfinished">Config Selection</translation>
+      <translation>Yapılandırma Seçimi</translation>
     </message>
     <message>
       <source>Common Config</source>
-      <translation type="unfinished">Common Config</translation>
+      <translation>Ortak Yapılandırma</translation>
     </message>
     <message>
       <source>Use per-game configs</source>
-      <translation type="unfinished">Use per-game configs</translation>
+      <translation>Oyuna özel yapılandırma kullan</translation>
     </message>
     <message>
       <source>L1 / LB</source>
-      <translation type="unfinished">L1 / LB</translation>
+      <translation>L1 / LB</translation>
     </message>
     <message>
       <source>L2 / LT</source>
-      <translation type="unfinished">L2 / LT</translation>
-    </message>
-    <message>
-      <source>KBM Controls</source>
-      <translation type="unfinished">KBM Controls</translation>
-    </message>
-    <message>
-      <source>KBM Editor</source>
-      <translation type="unfinished">KBM Editor</translation>
+      <translation>L2 / LT</translation>
     </message>
     <message>
       <source>Back</source>
-      <translation type="unfinished">Back</translation>
+      <translation>Geri</translation>
     </message>
     <message>
       <source>R1 / RB</source>
-      <translation type="unfinished">R1 / RB</translation>
+      <translation>R1 / RB</translation>
     </message>
     <message>
       <source>R2 / RT</source>
-      <translation type="unfinished">R2 / RT</translation>
+      <translation>R2 / RT</translation>
     </message>
     <message>
       <source>L3</source>
-      <translation type="unfinished">L3</translation>
+      <translation>L3</translation>
     </message>
     <message>
       <source>Options / Start</source>
-      <translation type="unfinished">Options / Start</translation>
+      <translation>Seçenekler / Başlat</translation>
     </message>
     <message>
       <source>R3</source>
-      <translation type="unfinished">R3</translation>
+      <translation>R3</translation>
     </message>
     <message>
       <source>Face Buttons</source>
-      <translation type="unfinished">Face Buttons</translation>
+      <translation>Eylem Düğmeleri</translation>
     </message>
     <message>
       <source>Triangle / Y</source>
-      <translation type="unfinished">Triangle / Y</translation>
+      <translation>Üçgen / Y</translation>
     </message>
     <message>
       <source>Square / X</source>
-      <translation type="unfinished">Square / X</translation>
+      <translation>Kare / X</translation>
     </message>
     <message>
       <source>Circle / B</source>
-      <translation type="unfinished">Circle / B</translation>
+      <translation>Daire / B</translation>
     </message>
     <message>
       <source>Cross / A</source>
-      <translation type="unfinished">Cross / A</translation>
+      <translation>Çarpı / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
-      <translation type="unfinished">Right Stick Deadzone (def:2, max:127)</translation>
+      <translation>Sağ Analog Ölü Bölgesi (varsayılan: 2, en çok: 127)</translation>
     </message>
     <message>
       <source>Right Deadzone</source>
-      <translation type="unfinished">Right Deadzone</translation>
+      <translation>Sağ Ölü Bölge</translation>
     </message>
     <message>
       <source>Right Stick</source>
-      <translation type="unfinished">Right Stick</translation>
+      <translation>Sağ Analog</translation>
+    </message>
+    <message>
+      <source>Color Adjustment</source>
+      <translation>Renk Ayarları</translation>
+    </message>
+    <message>
+      <source>R:</source>
+      <translation>K:</translation>
+    </message>
+    <message>
+      <source>G:</source>
+      <translation>Y:</translation>
+    </message>
+    <message>
+      <source>B:</source>
+      <translation>M:</translation>
+    </message>
+    <message>
+      <source>Override Lightbar Color</source>
+      <translation>Işıklı Çubuk Rengini Geçersiz Kıl</translation>
+    </message>
+    <message>
+      <source>Override Color</source>
+      <translation>Rengi Geçersiz Kıl</translation>
+    </message>
+    <message>
+      <source>Unable to Save</source>
+      <translation>Kaydedilemedi</translation>
+    </message>
+    <message>
+      <source>Cannot bind axis values more than once</source>
+      <translation>Eksen değerleri birden fazla kez bağlanamaz</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Kaydet</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Uygula</translation>
+    </message>
+    <message>
+      <source>Restore Defaults</source>
+      <translation>Varsayılanlara Sıfırla</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>İptal</translation>
+    </message>
+  </context>
+  <context>
+    <name>EditorDialog</name>
+    <message>
+      <source>Edit Keyboard + Mouse and Controller input bindings</source>
+      <translation>Klavye + Fare ve Kontrolcü tuş atamalarını düzenle</translation>
+    </message>
+    <message>
+      <source>Use Per-Game configs</source>
+      <translation>Oyuna özel yapılandırma kullan</translation>
+    </message>
+    <message>
+      <source>Error</source>
+      <translation>Hata</translation>
+    </message>
+    <message>
+      <source>Could not open the file for reading</source>
+      <translation>Dosya okumak için açılamadı</translation>
+    </message>
+    <message>
+      <source>Could not open the file for writing</source>
+      <translation>Dosya yazmak için açılamadı</translation>
+    </message>
+    <message>
+      <source>Save Changes</source>
+      <translation>Değişiklikleri Kaydet</translation>
+    </message>
+    <message>
+      <source>Do you want to save changes?</source>
+      <translation>Değişiklikleri kaydetmek istiyor musunuz?</translation>
+    </message>
+    <message>
+      <source>Help</source>
+      <translation>Yardım</translation>
+    </message>
+    <message>
+      <source>Do you want to reset your custom default config to the original default config?</source>
+      <translation>Özel varsayılan yapılandırmanızı, orijinal varsayılan yapılandırmaya sıfırlamak istiyor musunuz?</translation>
+    </message>
+    <message>
+      <source>Do you want to reset this config to your custom default config?</source>
+      <translation>Bu yapılandırmayı özel varsayılan yapılandırmanıza sıfırlamak istiyor musunuz?</translation>
+    </message>
+    <message>
+      <source>Reset to Default</source>
+      <translation>Varsayılanlara Sıfırla</translation>
     </message>
   </context>
   <context>
@@ -564,7 +643,7 @@
     </message>
     <message>
       <source>Directory to install games</source>
-      <translation>Oyunların yükleneceği klasör</translation>
+      <translation>Oyunların yükleneceği dizin</translation>
     </message>
     <message>
       <source>Browse</source>
@@ -576,7 +655,7 @@
     </message>
     <message>
       <source>Directory to install DLC</source>
-      <translation type="unfinished">Directory to install DLC</translation>
+      <translation>DLC'lerin yükleneceği dizin</translation>
     </message>
   </context>
   <context>
@@ -655,7 +734,7 @@
     </message>
     <message>
       <source>Game has game-breaking glitches or unplayable performance</source>
-      <translation type="unfinished">Game has game-breaking glitches or unplayable performance</translation>
+      <translation>Oyunu bozan hatalar ya da oynanamayan performans</translation>
     </message>
     <message>
       <source>Game can be completed with playable performance and no major glitches</source>
@@ -674,23 +753,23 @@
     <name>GameListUtils</name>
     <message>
       <source>B</source>
-      <translation type="unfinished">B</translation>
+      <translation>B</translation>
     </message>
     <message>
       <source>KB</source>
-      <translation type="unfinished">KB</translation>
+      <translation>KB</translation>
     </message>
     <message>
       <source>MB</source>
-      <translation type="unfinished">MB</translation>
+      <translation>MB</translation>
     </message>
     <message>
       <source>GB</source>
-      <translation type="unfinished">GB</translation>
+      <translation>GB</translation>
     </message>
     <message>
       <source>TB</source>
-      <translation type="unfinished">TB</translation>
+      <translation>TB</translation>
     </message>
   </context>
   <context>
@@ -701,7 +780,7 @@
     </message>
     <message>
       <source>Cheats / Patches</source>
-      <translation>Hileler / Yamanlar</translation>
+      <translation>Hileler / Yamalar</translation>
     </message>
     <message>
       <source>SFO Viewer</source>
@@ -725,7 +804,7 @@
     </message>
     <message>
       <source>Open Log Folder</source>
-      <translation>Log Klasörünü Aç</translation>
+      <translation>Günlük Klasörünü Aç</translation>
     </message>
     <message>
       <source>Copy info...</source>
@@ -741,11 +820,11 @@
     </message>
     <message>
       <source>Copy Version</source>
-      <translation type="unfinished">Copy Version</translation>
+      <translation>Sürümü Kopyala</translation>
     </message>
     <message>
       <source>Copy Size</source>
-      <translation type="unfinished">Copy Size</translation>
+      <translation>Boyutu Kopyala</translation>
     </message>
     <message>
       <source>Copy All</source>
@@ -753,35 +832,39 @@
     </message>
     <message>
       <source>Delete...</source>
-      <translation type="unfinished">Delete...</translation>
+      <translation>Sil...</translation>
     </message>
     <message>
       <source>Delete Game</source>
-      <translation type="unfinished">Delete Game</translation>
+      <translation>Oyunu Sil</translation>
     </message>
     <message>
       <source>Delete Update</source>
-      <translation type="unfinished">Delete Update</translation>
+      <translation>Güncellemeyi Sil</translation>
     </message>
     <message>
       <source>Delete DLC</source>
-      <translation type="unfinished">Delete DLC</translation>
+      <translation>DLC'yi Sil</translation>
+    </message>
+    <message>
+      <source>Delete Trophy</source>
+      <translation>Kupayı Sil</translation>
     </message>
     <message>
       <source>Compatibility...</source>
-      <translation type="unfinished">Compatibility...</translation>
+      <translation>Uyumluluk...</translation>
     </message>
     <message>
       <source>Update database</source>
-      <translation type="unfinished">Update database</translation>
+      <translation>Veri tabanını güncelle</translation>
     </message>
     <message>
       <source>View report</source>
-      <translation type="unfinished">View report</translation>
+      <translation>Raporu görüntüle</translation>
     </message>
     <message>
       <source>Submit a report</source>
-      <translation type="unfinished">Submit a report</translation>
+      <translation>Rapor gönder</translation>
     </message>
     <message>
       <source>Shortcut creation</source>
@@ -800,90 +883,313 @@
       <translation>Kısayol oluşturulurken hata oluştu!</translation>
     </message>
     <message>
-      <source>Install PKG</source>
-      <translation>PKG Yükle</translation>
-    </message>
-    <message>
       <source>Game</source>
-      <translation type="unfinished">Game</translation>
+      <translation>Oyun</translation>
     </message>
     <message>
       <source>This game has no update to delete!</source>
-      <translation type="unfinished">This game has no update to delete!</translation>
+      <translation>Bu oyunun silinecek güncellemesi yok!</translation>
     </message>
     <message>
       <source>Update</source>
-      <translation type="unfinished">Update</translation>
+      <translation>Güncelleme</translation>
     </message>
     <message>
       <source>This game has no DLC to delete!</source>
-      <translation type="unfinished">This game has no DLC to delete!</translation>
+      <translation>Bu oyunun silinecek DLC'si yok!</translation>
     </message>
     <message>
       <source>DLC</source>
-      <translation type="unfinished">DLC</translation>
+      <translation>DLC</translation>
     </message>
     <message>
       <source>Delete %1</source>
-      <translation type="unfinished">Delete %1</translation>
+      <translation>Sil: %1</translation>
     </message>
     <message>
       <source>Are you sure you want to delete %1&apos;s %2 directory?</source>
-      <translation type="unfinished">Are you sure you want to delete %1&apos;s %2 directory?</translation>
+      <translation>%1%2 adlı oyunun dizinini silmek istediğinize emin misiniz?</translation>
     </message>
     <message>
       <source>Open Update Folder</source>
-      <translation type="unfinished">Open Update Folder</translation>
+      <translation>Güncelleme Klasörünü Aç</translation>
     </message>
     <message>
       <source>Delete Save Data</source>
-      <translation type="unfinished">Delete Save Data</translation>
+      <translation>Kayıt Verilerini Sil</translation>
     </message>
     <message>
       <source>This game has no update folder to open!</source>
-      <translation type="unfinished">This game has no update folder to open!</translation>
+      <translation>Bu oyunun açılacak güncelleme klasörü yok!</translation>
+    </message>
+    <message>
+      <source>No log file found for this game!</source>
+      <translation>Bu oyun için günlük dosyası bulunamadı!</translation>
     </message>
     <message>
       <source>Failed to convert icon.</source>
-      <translation type="unfinished">Failed to convert icon.</translation>
+      <translation>Simge dönüştürülemedi.</translation>
     </message>
     <message>
       <source>This game has no save data to delete!</source>
-      <translation type="unfinished">This game has no save data to delete!</translation>
+      <translation>Bu oyunun silinecek kayıt verisi yok!</translation>
+    </message>
+    <message>
+      <source>This game has no saved trophies to delete!</source>
+      <translation>Bu oyunun silinecek kupası yok!</translation>
     </message>
     <message>
       <source>Save Data</source>
-      <translation type="unfinished">Save Data</translation>
+      <translation>Kayıt Verisi</translation>
+    </message>
+    <message>
+      <source>Trophy</source>
+      <translation>Kupa</translation>
+    </message>
+    <message>
+      <source>SFO Viewer for </source>
+      <translation>SFO Görüntüleyici: </translation>
     </message>
   </context>
   <context>
-    <name>InstallDirSelect</name>
+    <name>HelpDialog</name>
     <message>
-      <source>shadPS4 - Choose directory</source>
-      <translation>shadPS4 - Klasörü Seç</translation>
+      <source>Quickstart</source>
+      <translation>Hızlı Başlangıç</translation>
     </message>
     <message>
-      <source>Select which directory you want to install to.</source>
-      <translation type="unfinished">Select which directory you want to install to.</translation>
+      <source>FAQ</source>
+      <translation>SSS</translation>
     </message>
     <message>
-      <source>Install All Queued to Selected Folder</source>
-      <translation type="unfinished">Install All Queued to Selected Folder</translation>
+      <source>Syntax</source>
+      <translation>Sözdizimi</translation>
     </message>
     <message>
-      <source>Delete PKG File on Install</source>
-      <translation type="unfinished">Delete PKG File on Install</translation>
+      <source>Special Bindings</source>
+      <translation>Özel Atamalar</translation>
+    </message>
+    <message>
+      <source>Keybindings</source>
+      <translation>Tuş Atamaları</translation>
+    </message>
+  </context>
+  <context>
+    <name>KBMSettings</name>
+    <message>
+      <source>Configure Controls</source>
+      <translation>Kontrolleri Yapılandır</translation>
+    </message>
+    <message>
+      <source>D-Pad</source>
+      <translation>Yön Düğmeleri</translation>
+    </message>
+    <message>
+      <source>Up</source>
+      <translation>Yukarı</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>atanmamış</translation>
+    </message>
+    <message>
+      <source>Left</source>
+      <translation>Sol</translation>
+    </message>
+    <message>
+      <source>Right</source>
+      <translation>Sağ</translation>
+    </message>
+    <message>
+      <source>Down</source>
+      <translation>Aşağı</translation>
+    </message>
+    <message>
+      <source>Left Analog Halfmode</source>
+      <translation>Sol Analog Yarı Modu</translation>
+    </message>
+    <message>
+      <source>hold to move left stick at half-speed</source>
+      <translation>sol analogu yarı hızda hareket ettirmek için basılı tutun</translation>
+    </message>
+    <message>
+      <source>Left Stick</source>
+      <translation>Sol Analog</translation>
+    </message>
+    <message>
+      <source>Config Selection</source>
+      <translation>Yapılandırma Seçimi</translation>
+    </message>
+    <message>
+      <source>Common Config</source>
+      <translation>Ortak Yapılandırma</translation>
+    </message>
+    <message>
+      <source>Use per-game configs</source>
+      <translation>Oyuna özel yapılandırma kullan</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation>L1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation>L2</translation>
+    </message>
+    <message>
+      <source>Text Editor</source>
+      <translation>Metin Düzenleyici</translation>
+    </message>
+    <message>
+      <source>Help</source>
+      <translation>Yardım</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation>R1</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation>R2</translation>
+    </message>
+    <message>
+      <source>L3</source>
+      <translation>L3</translation>
+    </message>
+    <message>
+      <source>Touchpad Click</source>
+      <translation>Dokunmatik Yüzey Tıklaması</translation>
+    </message>
+    <message>
+      <source>Mouse to Joystick</source>
+      <translation>Mouse'dan Kontrolcü</translation>
+    </message>
+    <message>
+      <source>*press F7 ingame to activate</source>
+      <translation>*Etkinleştirmek için oyundayken F7'ye basın</translation>
+    </message>
+    <message>
+      <source>R3</source>
+      <translation>R3</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>Seçenekler</translation>
+    </message>
+    <message>
+      <source>Mouse Movement Parameters</source>
+      <translation>Mouse Hızı Değişkenleri</translation>
+    </message>
+    <message>
+      <source>note: click Help Button/Special Keybindings for more information</source>
+      <translation>Not: Daha fazla bilgi için Yardım ya da Özel Atamalar'a tıklayın</translation>
+    </message>
+    <message>
+      <source>Face Buttons</source>
+      <translation>Eylem Düğmeleri</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation>Üçgen</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation>Kare</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation>Daire</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation>Çarpı</translation>
+    </message>
+    <message>
+      <source>Right Analog Halfmode</source>
+      <translation>Sağ Analog Yarı Modu</translation>
+    </message>
+    <message>
+      <source>hold to move right stick at half-speed</source>
+      <translation>sağ analogu yarı hızda hareket ettirmek için basılı tutun</translation>
+    </message>
+    <message>
+      <source>Right Stick</source>
+      <translation>Sağ Analog</translation>
+    </message>
+    <message>
+      <source>Speed Offset (def 0.125):</source>
+      <translation>Hız Sapması (varsayılan 0.125):</translation>
+    </message>
+    <message>
+      <source>Copy from Common Config</source>
+      <translation>Ortak Yapılandırmadan Kopyala</translation>
+    </message>
+    <message>
+      <source>Deadzone Offset (def 0.50):</source>
+      <translation>Ölü Bölge Sapması (varsayılan 0.50):</translation>
+    </message>
+    <message>
+      <source>Speed Multiplier (def 1.0):</source>
+      <translation>Hız Çarpanı (varsayılan 1.0):</translation>
+    </message>
+    <message>
+      <source>Common Config Selected</source>
+      <translation>Ortak Yapılandırma Seçildi</translation>
+    </message>
+    <message>
+      <source>This button copies mappings from the Common Config to the currently selected profile, and cannot be used when the currently selected profile is the Common Config.</source>
+      <translation>Bu tuş, Ortak Yapılandırma'daki atamaları seçili profile kopyalar ve seçili profil Ortak Yapılandırma ise kullanılamaz.</translation>
+    </message>
+    <message>
+      <source>Copy values from Common Config</source>
+      <translation>Ortak Yapılandırmadan Değerleri Kopyala</translation>
+    </message>
+    <message>
+      <source>Do you want to overwrite existing mappings with the mappings from the Common Config?</source>
+      <translation>Mevcut atamaların üzerine ortak yapılandırmadaki atamaları yazmak istiyor musunuz?</translation>
+    </message>
+    <message>
+      <source>Unable to Save</source>
+      <translation>Kaydedilemedi</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once</source>
+      <translation>Herhangi bir benzersiz girdi birden fazla kez bağlanamaz</translation>
+    </message>
+    <message>
+      <source>Press a key</source>
+      <translation>Bir tuşa basın</translation>
+    </message>
+    <message>
+      <source>Cannot set mapping</source>
+      <translation>Atama ayarlanamıyor</translation>
+    </message>
+    <message>
+      <source>Mousewheel cannot be mapped to stick outputs</source>
+      <translation>Mouse tekerleği analog çıkışlarına atanamaz</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Kaydet</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Uygula</translation>
+    </message>
+    <message>
+      <source>Restore Defaults</source>
+      <translation>Varsayılanlara Sıfırla</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>İptal</translation>
     </message>
   </context>
   <context>
     <name>MainWindow</name>
     <message>
       <source>Open/Add Elf Folder</source>
-      <translation>Elf Klasörünü Aç/Ekle</translation>
-    </message>
-    <message>
-      <source>Install Packages (PKG)</source>
-      <translation>Paketleri Kur (PKG)</translation>
+      <translation>Elf Klasörü Aç/Ekle</translation>
     </message>
     <message>
       <source>Boot Game</source>
@@ -902,16 +1208,12 @@
       <translation>Yapılandır...</translation>
     </message>
     <message>
-      <source>Install application from a .pkg file</source>
-      <translation>.pkg dosyasından uygulama yükle</translation>
-    </message>
-    <message>
       <source>Recent Games</source>
       <translation>Son Oyunlar</translation>
     </message>
     <message>
       <source>Open shadPS4 Folder</source>
-      <translation type="unfinished">Open shadPS4 Folder</translation>
+      <translation>shadPS4 Klasörünü Aç</translation>
     </message>
     <message>
       <source>Exit</source>
@@ -935,11 +1237,11 @@
     </message>
     <message>
       <source>Tiny</source>
-      <translation>Küçük</translation>
+      <translation>Minik</translation>
     </message>
     <message>
       <source>Small</source>
-      <translation>Ufak</translation>
+      <translation>Küçük</translation>
     </message>
     <message>
       <source>Medium</source>
@@ -963,7 +1265,7 @@
     </message>
     <message>
       <source>Game Install Directory</source>
-      <translation>Oyun Kurulum Klasörü</translation>
+      <translation>Oyun Kurulum Dizini</translation>
     </message>
     <message>
       <source>Download Cheats/Patches</source>
@@ -974,8 +1276,12 @@
       <translation>Oyun Listesini Kaydet</translation>
     </message>
     <message>
-      <source>PKG Viewer</source>
-      <translation>PKG Görüntüleyici</translation>
+      <source>Trophy Viewer</source>
+      <translation>Kupa Görüntüleyici</translation>
+    </message>
+    <message>
+      <source>No games found. Please add your games to your library first.</source>
+      <translation>Oyun bulunamadı. Oyunlarınızı lütfen önce kütüphanenize ekleyin.</translation>
     </message>
     <message>
       <source>Search...</source>
@@ -995,7 +1301,7 @@
     </message>
     <message>
       <source>Game List Mode</source>
-      <translation>Oyun Listesi Modu</translation>
+      <translation>Oyun Listesi Görünümü</translation>
     </message>
     <message>
       <source>Settings</source>
@@ -1086,159 +1392,60 @@
       <translation>Sadece bir dosya seçilebilir!</translation>
     </message>
     <message>
-      <source>PKG Extraction</source>
-      <translation>PKG Çıkartma</translation>
-    </message>
-    <message>
-      <source>Patch detected!</source>
-      <translation>Yama tespit edildi!</translation>
-    </message>
-    <message>
-      <source>PKG and Game versions match: </source>
-      <translation>PKG ve oyun sürümleri uyumlu: </translation>
-    </message>
-    <message>
-      <source>Would you like to overwrite?</source>
-      <translation>Üzerine yazmak ister misiniz?</translation>
-    </message>
-    <message>
-      <source>PKG Version %1 is older than installed version: </source>
-      <translation>PKG Sürümü %1, kurulu sürümden daha eski: </translation>
-    </message>
-    <message>
-      <source>Game is installed: </source>
-      <translation>Oyun yüklendi: </translation>
-    </message>
-    <message>
-      <source>Would you like to install Patch: </source>
-      <translation>Yamanın yüklenmesini ister misiniz: </translation>
-    </message>
-    <message>
-      <source>DLC Installation</source>
-      <translation>DLC Yükleme</translation>
-    </message>
-    <message>
-      <source>Would you like to install DLC: %1?</source>
-      <translation>DLC&apos;yi yüklemek ister misiniz: %1?</translation>
-    </message>
-    <message>
-      <source>DLC already installed:</source>
-      <translation>DLC zaten yüklü:</translation>
-    </message>
-    <message>
-      <source>Game already installed</source>
-      <translation>Oyun zaten yüklü</translation>
-    </message>
-    <message>
-      <source>PKG ERROR</source>
-      <translation>PKG HATASI</translation>
-    </message>
-    <message>
-      <source>Extracting PKG %1/%2</source>
-      <translation>PKG Çıkarılıyor %1/%2</translation>
-    </message>
-    <message>
-      <source>Extraction Finished</source>
-      <translation>Çıkarma Tamamlandı</translation>
-    </message>
-    <message>
-      <source>Game successfully installed at %1</source>
-      <translation>Oyun başarıyla %1 konumuna yüklendi</translation>
-    </message>
-    <message>
-      <source>File doesn&apos;t appear to be a valid PKG file</source>
-      <translation>Dosya geçerli bir PKG dosyası gibi görünmüyor</translation>
-    </message>
-    <message>
       <source>Run Game</source>
-      <translation type="unfinished">Run Game</translation>
+      <translation>Oyunu Çalıştır</translation>
     </message>
     <message>
       <source>Eboot.bin file not found</source>
-      <translation type="unfinished">Eboot.bin file not found</translation>
-    </message>
-    <message>
-      <source>PKG File (*.PKG *.pkg)</source>
-      <translation type="unfinished">PKG File (*.PKG *.pkg)</translation>
-    </message>
-    <message>
-      <source>PKG is a patch or DLC, please install the game first!</source>
-      <translation type="unfinished">PKG is a patch or DLC, please install the game first!</translation>
+      <translation>Eboot.bin dosyası bulunamadı</translation>
     </message>
     <message>
       <source>Game is already running!</source>
-      <translation type="unfinished">Game is already running!</translation>
+      <translation>Oyun zaten çalışıyor!</translation>
     </message>
     <message>
       <source>shadPS4</source>
-      <translation type="unfinished">shadPS4</translation>
-    </message>
-  </context>
-  <context>
-    <name>PKGViewer</name>
-    <message>
-      <source>Open Folder</source>
-      <translation>Klasörü Aç</translation>
+      <translation>shadPS4</translation>
     </message>
     <message>
-      <source>PKG ERROR</source>
-      <translation>PKG HATASI</translation>
+      <source>Play</source>
+      <translation>Başlat</translation>
     </message>
     <message>
-      <source>Name</source>
-      <translation>Ad</translation>
+      <source>Pause</source>
+      <translation>Duraklat</translation>
     </message>
     <message>
-      <source>Serial</source>
-      <translation>Seri Numarası</translation>
+      <source>Stop</source>
+      <translation>Durdur</translation>
     </message>
     <message>
-      <source>Installed</source>
-      <translation type="unfinished">Installed</translation>
+      <source>Restart</source>
+      <translation>Yeniden Başlat</translation>
     </message>
     <message>
-      <source>Size</source>
-      <translation>Boyut</translation>
+      <source>Full Screen</source>
+      <translation>Tam Ekran</translation>
     </message>
     <message>
-      <source>Category</source>
-      <translation type="unfinished">Category</translation>
+      <source>Controllers</source>
+      <translation>Kontrolcüler</translation>
     </message>
     <message>
-      <source>Type</source>
-      <translation type="unfinished">Type</translation>
+      <source>Keyboard</source>
+      <translation>Klavye</translation>
     </message>
     <message>
-      <source>App Ver</source>
-      <translation type="unfinished">App Ver</translation>
+      <source>Refresh List</source>
+      <translation>Listeyi Yenile</translation>
     </message>
     <message>
-      <source>FW</source>
-      <translation type="unfinished">FW</translation>
+      <source>Resume</source>
+      <translation>Devam Et</translation>
     </message>
     <message>
-      <source>Region</source>
-      <translation>Bölge</translation>
-    </message>
-    <message>
-      <source>Flags</source>
-      <translation type="unfinished">Flags</translation>
-    </message>
-    <message>
-      <source>Path</source>
-      <translation>Yol</translation>
-    </message>
-    <message>
-      <source>File</source>
-      <translation>Dosya</translation>
-    </message>
-    <message>
-      <source>Unknown</source>
-      <translation>Bilinmeyen</translation>
-    </message>
-    <message>
-      <source>Package</source>
-      <translation type="unfinished">Package</translation>
+      <source>Show Labels Under Icons</source>
+      <translation>Simgelerin Altında Etiketleri Göster</translation>
     </message>
   </context>
   <context>
@@ -1266,14 +1473,6 @@
     <message>
       <source>Emulator</source>
       <translation>Emülatör</translation>
-    </message>
-    <message>
-      <source>Enable Fullscreen</source>
-      <translation>Tam Ekranı Etkinleştir</translation>
-    </message>
-    <message>
-      <source>Fullscreen Mode</source>
-      <translation>Tam Ekran Modu</translation>
     </message>
     <message>
       <source>Enable Separate Update Folder</source>
@@ -1306,6 +1505,10 @@
     <message>
       <source>Trophy</source>
       <translation>Kupa</translation>
+    </message>
+    <message>
+      <source>Open the custom trophy images/sounds folder</source>
+      <translation>Özel kupa görüntüleri/sesleri klasörünü aç</translation>
     </message>
     <message>
       <source>Logger</source>
@@ -1341,7 +1544,7 @@
     </message>
     <message>
       <source>s</source>
-      <translation type="unfinished">s</translation>
+      <translation>sn</translation>
     </message>
     <message>
       <source>Controller</source>
@@ -1349,7 +1552,7 @@
     </message>
     <message>
       <source>Back Button Behavior</source>
-      <translation>Geri Dön Butonu Davranışı</translation>
+      <translation>Geri Dönme Butonu Davranışı</translation>
     </message>
     <message>
       <source>Graphics</source>
@@ -1368,14 +1571,6 @@
       <translation>Grafik Cihazı</translation>
     </message>
     <message>
-      <source>Width</source>
-      <translation>Genişlik</translation>
-    </message>
-    <message>
-      <source>Height</source>
-      <translation>Yükseklik</translation>
-    </message>
-    <message>
       <source>Vblank Divider</source>
       <translation>Vblank Bölücü</translation>
     </message>
@@ -1389,11 +1584,11 @@
     </message>
     <message>
       <source>Enable NULL GPU</source>
-      <translation>NULL GPU&apos;yu Etkinleştir</translation>
+      <translation>NULL GPU'yu Etkinleştir</translation>
     </message>
     <message>
       <source>Enable HDR</source>
-      <translation type="unfinished">Enable HDR</translation>
+      <translation>HDR</translation>
     </message>
     <message>
       <source>Paths</source>
@@ -1433,23 +1628,23 @@
     </message>
     <message>
       <source>Enable Crash Diagnostics</source>
-      <translation type="unfinished">Enable Crash Diagnostics</translation>
+      <translation>Çökme Tanılamalarını Etkinleştir</translation>
     </message>
     <message>
       <source>Collect Shaders</source>
-      <translation type="unfinished">Collect Shaders</translation>
+      <translation>Gölgelendiricileri Topla</translation>
     </message>
     <message>
       <source>Copy GPU Buffers</source>
-      <translation type="unfinished">Copy GPU Buffers</translation>
+      <translation>GPU Arabelleklerini Kopyala</translation>
     </message>
     <message>
       <source>Host Debug Markers</source>
-      <translation type="unfinished">Host Debug Markers</translation>
+      <translation>Ana Bilgisayar Hata Ayıklama İşaretleyicileri</translation>
     </message>
     <message>
       <source>Guest Debug Markers</source>
-      <translation type="unfinished">Guest Debug Markers</translation>
+      <translation>Konuk Hata Ayıklama İşaretleyicileri</translation>
     </message>
     <message>
       <source>Update</source>
@@ -1473,31 +1668,31 @@
     </message>
     <message>
       <source>GUI Settings</source>
-      <translation>GUI Ayarları</translation>
+      <translation>Arayüz Ayarları</translation>
     </message>
     <message>
       <source>Title Music</source>
-      <translation type="unfinished">Title Music</translation>
+      <translation>Oyun Müziği</translation>
     </message>
     <message>
-      <source>Disable Trophy Pop-ups</source>
-      <translation>Kupa Açılır Pencerelerini Devre Dışı Bırak</translation>
+      <source>Disable Trophy Notification</source>
+      <translation>Kupa Bildirimini Devre Dışı Bırak</translation>
     </message>
     <message>
       <source>Background Image</source>
-      <translation type="unfinished">Background Image</translation>
+      <translation>Arka Plan Resmi</translation>
     </message>
     <message>
       <source>Show Background Image</source>
-      <translation type="unfinished">Show Background Image</translation>
+      <translation>Arka Plan Resmini Göster</translation>
     </message>
     <message>
       <source>Opacity</source>
-      <translation type="unfinished">Opacity</translation>
+      <translation>Görünürlük</translation>
     </message>
     <message>
       <source>Play title music</source>
-      <translation>Başlık müziğini çal</translation>
+      <translation>Oyun müziğini çal</translation>
     </message>
     <message>
       <source>Update Compatibility Database On Startup</source>
@@ -1537,87 +1732,83 @@
     </message>
     <message>
       <source>Point your mouse at an option to display its description.</source>
-      <translation>Seçenek üzerinde farenizi tutarak açıklamasını görüntüleyin.</translation>
+      <translation>Açıklamasını görüntülemek için mouse'unuzu bir seçeneğin üzerine getirin.</translation>
     </message>
     <message>
-      <source>consoleLanguageGroupBox</source>
+      <source>Console Language:\nSets the language that the PS4 game uses.\nIt&apos;s recommended to set this to a language the game supports, which will vary by region.</source>
       <translation>Konsol Dili:\nPS4 oyununun kullandığı dili ayarlar.\nBu seçeneği, oyunun desteklediği bir dilde ayarlamanız önerilir; bu durum bölgeye göre değişebilir.</translation>
     </message>
     <message>
-      <source>emulatorLanguageGroupBox</source>
+      <source>Emulator Language:\nSets the language of the emulator&apos;s user interface.</source>
       <translation>Emülatör Dili:\nEmülatörün kullanıcı arayüzünün dilini ayarlar.</translation>
     </message>
     <message>
-      <source>fullscreenCheckBox</source>
-      <translation>Tam Ekranı Etkinleştir:\nOyun penceresini otomatik olarak tam ekran moduna alır.\nBu, F11 tuşuna basarak geçiş yapılabilir.</translation>
-    </message>
-    <message>
-      <source>separateUpdatesCheckBox</source>
+      <source>Enable Separate Update Folder:\nEnables installing game updates into a separate folder for easy management.\nThis can be manually created by adding the extracted update to the game folder with the name &quot;CUSA00000-UPDATE&quot; where the CUSA ID matches the game&apos;s ID.</source>
       <translation>Enable Separate Update Folder:\nEnables installing game updates into a separate folder for easy management.</translation>
     </message>
     <message>
-      <source>showSplashCheckBox</source>
+      <source>Show Splash Screen:\nShows the game&apos;s splash screen (a special image) while the game is starting.</source>
       <translation>Açılış Ekranını Göster:\nOyun açılırken (özel bir görüntü) açılış ekranını gösterir.</translation>
     </message>
     <message>
-      <source>discordRPCCheckbox</source>
+      <source>Enable Discord Rich Presence:\nDisplays the emulator icon and relevant information on your Discord profile.</source>
       <translation>Discord Rich Presence&apos;i etkinleştir:\nEmülatör simgesini ve Discord profilinizdeki ilgili bilgileri gösterir.</translation>
     </message>
     <message>
-      <source>userName</source>
+      <source>Username:\nSets the PS4&apos;s account username, which may be displayed by some games.</source>
       <translation>Kullanıcı Adı:\nBazı oyunlar tarafından gösterilebilen PS4 hesabının kullanıcı adını ayarlar.</translation>
     </message>
     <message>
-      <source>TrophyKey</source>
-      <translation>Trophy Key:\nKey used to decrypt trophies. Must be obtained from your jailbroken console.\nMust contain only hex characters.</translation>
+      <source>Trophy Key:\nKey used to decrypt trophies. Must be obtained from your jailbroken console.\nMust contain only hex characters.</source>
+      <translation>Kupa Anahtarı:\nKupaların şifresini çözmek için kullanılan anahtardır. Jailbreak yapılmış konsolunuzdan alınmalıdır.\nYalnızca onaltılık karakterler içermelidir.</translation>
     </message>
     <message>
-      <source>logTypeGroupBox</source>
+      <source>Log Type:\nSets whether to synchronize the output of the log window for performance. May have adverse effects on emulation.</source>
       <translation>Günlük Türü:\nPerformans için günlük penceresi çıkışını senkronize etme durumunu ayarlar. Bu, emülasyonda olumsuz etkilere yol açabilir.</translation>
     </message>
     <message>
-      <source>logFilter</source>
+      <source>Log Filter:\nFilters the log to only print specific information.\nExamples: &quot;Core:Trace&quot; &quot;Lib.Pad:Debug Common.Filesystem:Error&quot; &quot;*:Critical&quot;\nLevels: Trace, Debug, Info, Warning, Error, Critical - in this order, a specific level silences all levels preceding it in the list and logs every level after it.</source>
       <translation>Günlük Filtre:\nSadece belirli bilgileri yazdırmak için günlüğü filtreler.\nÖrnekler: &quot;Core:Trace&quot; &quot;Lib.Pad:Debug Common.Filesystem:Error&quot; &quot;*:Critical&quot; Düzeyler: Trace, Debug, Info, Warning, Error, Critical - bu sırada, belirli bir seviye listede önceki tüm seviyeleri susturur ve sonraki tüm seviyeleri kaydeder.</translation>
     </message>
     <message>
-      <source>updaterGroupBox</source>
+      <source>Update:\nRelease: Official versions released every month that may be very outdated, but are more reliable and tested.\nNightly: Development versions that have all the latest features and fixes, but may contain bugs and are less stable.</source>
       <translation>Güncelleme:\nRelease: Her ay yayınlanan resmi sürümler; çok eski olabilirler, ancak daha güvenilirdir ve test edilmiştir.\nNightly: Tüm en son özellikler ve düzeltmeler ile birlikte geliştirme sürümleri; hatalar içerebilir ve daha az kararlıdırlar.</translation>
     </message>
     <message>
-      <source>GUIBackgroundImageGroupBox</source>
-      <translation type="unfinished">GUIBackgroundImageGroupBox</translation>
+      <source>Background Image:\nControl the opacity of the game background image.</source>
+      <translation>Arka Plan Resmi:\nOyunun arka plan resmi görünürlüğünü ayarlayın.</translation>
     </message>
     <message>
-      <source>GUIMusicGroupBox</source>
-      <translation>Başlık Müziklerini Çal:\nEğer bir oyun bunu destekliyorsa, GUI&apos;de oyunu seçtiğinizde özel müziklerin çalmasını etkinleştirir.</translation>
+      <source>Play Title Music:\nIf a game supports it, enable playing special music when selecting the game in the GUI.</source>
+      <translation>Oyun Müziklerini Çal:\nEğer oyun destekliyorsa, arayüzde oyunu seçtiğinizde özel müzik çalmasını etkinleştirir.</translation>
     </message>
     <message>
-      <source>disableTrophycheckBox</source>
-      <translation>Disable Trophy Pop-ups:\nDisable in-game trophy notifications. Trophy progress can still be tracked using the Trophy Viewer (right-click the game in the main window).</translation>
+      <source>Disable Trophy Pop-ups:\nDisable in-game trophy notifications. Trophy progress can still be tracked using the Trophy Viewer (right-click the game in the main window).</source>
+      <translation>Kupa Açılır Pencerelerini Devre Dışı Bırak:\nOyun için kupa bildirimlerini devre dışı bırakın. Kupa ilerlemesi hala Kupa Görüntüleyicisi kullanılarak takip edilebilir (ana menüde oyuna sağ tıklayın).</translation>
     </message>
     <message>
-      <source>hideCursorGroupBox</source>
+      <source>Hide Cursor:\nChoose when the cursor will disappear:\nNever: You will always see the mouse.\nidle: Set a time for it to disappear after being idle.\nAlways: you will never see the mouse.</source>
       <translation>İmleci gizle:\nİmlecin ne zaman kaybolacağını seçin:\nAsla: Fareyi her zaman göreceksiniz.\nPasif: Hareketsiz kaldıktan sonra kaybolması için bir süre belirleyin.\nHer zaman: fareyi asla göremeyeceksiniz.</translation>
     </message>
     <message>
-      <source>idleTimeoutGroupBox</source>
-      <translation>Hareket etmeden sonra imlecin kaybolacağı süreyi ayarlayın.</translation>
+      <source>Hide Idle Cursor Timeout:\nThe duration (seconds) after which the cursor that has been idle hides itself.</source>
+      <translation>İmleç İçin Hareketsizlik Zaman Aşımı:\nBoşta kalan imlecin kendini kaç saniye sonra gizleyeceğidir.</translation>
     </message>
     <message>
-      <source>backButtonBehaviorGroupBox</source>
+      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
       <translation>Geri düğmesi davranışı:\nKontrol cihazındaki geri düğmesini, PS4&apos;ün dokunmatik panelindeki belirlenen noktaya dokunmak için ayarlar.</translation>
     </message>
     <message>
-      <source>enableCompatibilityCheckBox</source>
-      <translation>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</translation>
+      <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
+      <translation>Uyumluluk Verilerini Göster:\nOyun uyumluluk bilgilerini tablo görünümünde görüntüler. Güncel bilgileri almak için &quot;Başlangıçta Uyumluluk Veritabanını Güncelle&quot;yi etkinleştirin.</translation>
     </message>
     <message>
-      <source>checkCompatibilityOnStartupCheckBox</source>
-      <translation>Update Compatibility On Startup:\nAutomatically update the compatibility database when shadPS4 starts.</translation>
+      <source>Update Compatibility On Startup:\nAutomatically update the compatibility database when shadPS4 starts.</source>
+      <translation>Başlangıçta Uyumluluk Veritabanını Güncelle:\nshadPS4 başlatıldığında uyumluluk veritabanını otomatik olarak güncelleyin.</translation>
     </message>
     <message>
-      <source>updateCompatibilityButton</source>
-      <translation>Update Compatibility Database:\nImmediately update the compatibility database.</translation>
+      <source>Update Compatibility Database:\nImmediately update the compatibility database.</source>
+      <translation>Uyumluluk Veritabanını Güncelle:\nUyumluluk veri tabanını hemen güncelleyin.</translation>
     </message>
     <message>
       <source>Never</source>
@@ -1648,112 +1839,104 @@
       <translation>Yok</translation>
     </message>
     <message>
-      <source>graphicsAdapterGroupBox</source>
+      <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
       <translation>Grafik Aygıtı:\nBirden fazla GPU&apos;ya sahip sistemlerde, emülatörün kullanacağı GPU&apos;yu açılır listeden seçin,\nor &quot;Auto Select&quot; seçeneğini seçerek otomatik olarak belirlenmesini sağlayın.</translation>
     </message>
     <message>
-      <source>resolutionLayout</source>
+      <source>Width/Height:\nSets the size of the emulator window at launch, which can be resized during gameplay.\nThis is different from the in-game resolution.</source>
       <translation>Genişlik/Yükseklik:\nEmülatör penceresinin açılışta boyutunu ayarlar; bu, oyun sırasında yeniden boyutlandırılabilir.\nBu, oyundaki çözünürlükten farklıdır.</translation>
     </message>
     <message>
-      <source>heightDivider</source>
+      <source>Vblank Divider:\nThe frame rate at which the emulator refreshes at is multiplied by this number. Changing this may have adverse effects, such as increasing the game speed, or breaking critical game functionality that does not expect this to change!</source>
       <translation>Vblank Bölücü:\nEmülatörün yenileme hızı bu sayı ile çarpılır. Bu değerin değiştirilmesi olumsuz etkilere yol açabilir; oyun hızını artırabilir veya oyunun beklemediği kritik işlevselliği bozabilir!</translation>
     </message>
     <message>
-      <source>dumpShadersCheckBox</source>
+      <source>Enable Shaders Dumping:\nFor the sake of technical debugging, saves the games shaders to a folder as they render.</source>
       <translation>Shader&apos;ları Dışa Aktarmayı Etkinleştir:\nTeknik hata ayıklama amacıyla, shader&apos;ları render edildikçe bir klasöre kaydeder.</translation>
     </message>
     <message>
-      <source>nullGpuCheckBox</source>
+      <source>Enable Null GPU:\nFor the sake of technical debugging, disables game rendering as if there were no graphics card.</source>
       <translation>Null GPU&apos;yu Etkinleştir:\nTeknik hata ayıklama amacıyla, oyunun render edilmesini grafik kartı yokmuş gibi devre dışı bırakır.</translation>
     </message>
     <message>
-      <source>enableHDRCheckBox</source>
-      <translation type="unfinished">enableHDRCheckBox</translation>
+      <source>Enable HDR:\nEnables HDR in games that support it.\nYour monitor must have support for the BT2020 PQ color space and the RGB10A2 swapchain format.</source>
+      <translation>HDR'yi Etkinleştir:\nDestekleyen oyunlarda HDR'yi etkinleştirir.\nMonitörünüz, BT2020 PQ renk alanını ve RGB10A2 takas zinciri biçimini desteklemelidir.</translation>
     </message>
     <message>
-      <source>gameFoldersBox</source>
+      <source>Game Folders:\nThe list of folders to check for installed games.</source>
       <translation>Oyun klasörleri:\nYüklenmiş oyunları kontrol etmek için klasörlerin listesi.</translation>
     </message>
     <message>
-      <source>addFolderButton</source>
+      <source>Add:\nAdd a folder to the list.</source>
       <translation>Ekle:\nListeye bir klasör ekle.</translation>
     </message>
     <message>
-      <source>removeFolderButton</source>
+      <source>Remove:\nRemove a folder from the list.</source>
       <translation>Kaldır:\nListeden bir klasörü kaldır.</translation>
     </message>
     <message>
-      <source>debugDump</source>
+      <source>Enable Debug Dumping:\nSaves the import and export symbols and file header information of the currently running PS4 program to a directory.</source>
       <translation>Hata Ayıklama için Dışa Aktarmayı Etkinleştir:\nŞu anda çalışan PS4 uygulaması için içe aktarılan ve dışa aktarılan sembolleri ve dosya başlık bilgilerini bir dizine kaydedin.</translation>
     </message>
     <message>
-      <source>vkValidationCheckBox</source>
+      <source>Enable Vulkan Validation Layers:\nEnables a system that validates the state of the Vulkan renderer and logs information about its internal state.\nThis will reduce performance and likely change the behavior of emulation.</source>
       <translation>Vulkan Doğrulama Katmanlarını Etkinleştir:\nVulkan renderlayıcısının durumunu doğrulayan ve iç durum hakkında bilgi kaydeden bir sistemi etkinleştirir. Bu, performansı düşürür ve muhtemelen emülasyon davranışını değiştirir.</translation>
     </message>
     <message>
-      <source>vkSyncValidationCheckBox</source>
+      <source>Enable Vulkan Synchronization Validation:\nEnables a system that validates the timing of Vulkan rendering tasks.\nThis will reduce performance and likely change the behavior of emulation.</source>
       <translation>Vulkan Senkronizasyon Doğrulamasını Etkinleştir:\nVulkan renderlama görevlerinin senkronizasyonunu doğrulayan bir sistemi etkinleştirir. Bu, performansı düşürür ve muhtemelen emülasyon davranışını değiştirir.</translation>
     </message>
     <message>
-      <source>rdocCheckBox</source>
+      <source>Enable RenderDoc Debugging:\nIf enabled, the emulator will provide compatibility with Renderdoc to allow capture and analysis of the currently rendered frame.</source>
       <translation>RenderDoc Hata Ayıklamayı Etkinleştir:\nEğer etkinleştirilirse, emülatör mevcut render edilmiş çerçeveyi yakalamak ve analiz etmek için Renderdoc ile uyumluluk sunar.</translation>
     </message>
     <message>
-      <source>collectShaderCheckBox</source>
-      <translation>Collect Shaders:\nYou need this enabled to edit shaders with the debug menu (Ctrl + F10).</translation>
+      <source>Collect Shaders:\nYou need this enabled to edit shaders with the debug menu (Ctrl + F10).</source>
+      <translation>Gölgelendiricileri Topla:\nHata ayıklama menüsüyle (Ctrl + F10) gölgelendiricileri düzenlemek için bunun etkinleştirilmesi gerekir.</translation>
     </message>
     <message>
-      <source>crashDiagnosticsCheckBox</source>
-      <translation>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</translation>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
+      <translation>Çökme Tanılamaları:\nÇökme anındaki Vulkan durumu hakkında bilgi içeren bir .yaml dosyası oluşturur.\n&apos;Cihaz kayıp&apos; hatalarını ayıklamak için kullanışlıdır. Bunu etkinleştirdiyseniz, Ana Bilgisayar ve Konuk Hata Ayıklama İşaretleyicileri'ni etkinleştirmelisiniz.\nIntel GPU'lar üzerinde çalışmaz.\nÇalışabilmesi için Vulkan Doğrulama Katmanları'nın etkinleştirilmesine ve Vulkan SDK'sine ihtiyacınız vardır.</translation>
     </message>
     <message>
-      <source>copyGPUBuffersCheckBox</source>
-      <translation>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</translation>
+      <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
+      <translation>GPU Arabelleklerini Kopyala:\nGPU gönderimlerini içeren yarış koşullarının etrafından dolaşır.\nPM4 tip 0 çökmelerine yardımcı olabilir veya olmayabilir.</translation>
     </message>
     <message>
-      <source>hostMarkersCheckBox</source>
-      <translation>Host Debug Markers:\nInserts emulator-side information like markers for specific AMDGPU commands around Vulkan commands, as well as giving resources debug names.\nIf you have this enabled, you should enable Crash Diagnostics.\nUseful for programs like RenderDoc.</translation>
+      <source>Host Debug Markers:\nInserts emulator-side information like markers for specific AMDGPU commands around Vulkan commands, as well as giving resources debug names.\nIf you have this enabled, you should enable Crash Diagnostics.\nUseful for programs like RenderDoc.</source>
+      <translation>Ana Bilgisayar Hata Ayıklama Göstergeleri:\nVulkan komutlarının etrafına belirli AMDGPU komutları için göstergeler gibi emülatör tarafı bilgileri ekler ve kaynaklara hata ayıklama adları verir.\nBunu etkinleştirdiyseniz, Çökme Tanılamaları'nı etkinleştirmelisiniz.\nRenderDoc gibi programlar için faydalıdır.</translation>
     </message>
     <message>
-      <source>guestMarkersCheckBox</source>
-      <translation>Guest Debug Markers:\nInserts any debug markers the game itself has added to the command buffer.\nIf you have this enabled, you should enable Crash Diagnostics.\nUseful for programs like RenderDoc.</translation>
+      <source>Guest Debug Markers:\nInserts any debug markers the game itself has added to the command buffer.\nIf you have this enabled, you should enable Crash Diagnostics.\nUseful for programs like RenderDoc.</source>
+      <translation>Konuk Hata Ayıklama İşaretleyicileri\nOyunun kendisinin komut arabelleğine eklediği tüm hata ayıklama işaretlerini ekler.\nBunu etkinleştirdiyseniz, Çökme Tanılamalarını etkinleştirmeniz gerekir.\nRenderDoc gibi programlar için kullanışlıdır.</translation>
     </message>
     <message>
-      <source>saveDataBox</source>
-      <translation type="unfinished">saveDataBox</translation>
+      <source>Save Data Path:\nThe folder where game save data will be saved.</source>
+      <translation>Kayıt Verileri Yolu:\nOyun kayıt verilerinin kaydedileceği klasördür.</translation>
     </message>
     <message>
-      <source>browseButton</source>
-      <translation type="unfinished">browseButton</translation>
-    </message>
-    <message>
-      <source>Borderless</source>
-      <translation type="unfinished">Borderless</translation>
-    </message>
-    <message>
-      <source>True</source>
-      <translation type="unfinished">True</translation>
+      <source>Browse:\nBrowse for a folder to set as the save data path.</source>
+      <translation>Gözat:\nVerileri kaydetme yolu olarak ayarlamak için bir klasöre göz atın.</translation>
     </message>
     <message>
       <source>Release</source>
-      <translation type="unfinished">Release</translation>
+      <translation>Kararlı</translation>
     </message>
     <message>
       <source>Nightly</source>
-      <translation type="unfinished">Nightly</translation>
+      <translation>Günlük</translation>
     </message>
     <message>
       <source>Set the volume of the background music.</source>
-      <translation type="unfinished">Set the volume of the background music.</translation>
+      <translation>Arka plan müziğinin ses seviyesini ayarlayın.</translation>
     </message>
     <message>
       <source>Enable Motion Controls</source>
-      <translation type="unfinished">Enable Motion Controls</translation>
+      <translation>Hareket Kontrollerini Etkinleştir</translation>
     </message>
     <message>
       <source>Save Data Path</source>
-      <translation type="unfinished">Save Data Path</translation>
+      <translation>Kayıt Verileri Yolu</translation>
     </message>
     <message>
       <source>Browse</source>
@@ -1761,23 +1944,119 @@
     </message>
     <message>
       <source>async</source>
-      <translation type="unfinished">async</translation>
+      <translation>asenkronize</translation>
     </message>
     <message>
       <source>sync</source>
-      <translation type="unfinished">sync</translation>
+      <translation>senkronize</translation>
     </message>
     <message>
       <source>Auto Select</source>
-      <translation type="unfinished">Auto Select</translation>
+      <translation>Otomatik Seç</translation>
     </message>
     <message>
       <source>Directory to install games</source>
-      <translation>Oyunların yükleneceği klasör</translation>
+      <translation>Oyunların yükleneceği dizin</translation>
     </message>
     <message>
       <source>Directory to save data</source>
-      <translation type="unfinished">Directory to save data</translation>
+      <translation>Kayıt verilerinin tutulacağı dizin</translation>
+    </message>
+    <message>
+      <source>Video</source>
+      <translation>Görüntü</translation>
+    </message>
+    <message>
+      <source>Display Mode</source>
+      <translation>Görüntü Modu</translation>
+    </message>
+    <message>
+      <source>Windowed</source>
+      <translation>Pencereli</translation>
+    </message>
+    <message>
+      <source>Fullscreen</source>
+      <translation>Tam Ekran</translation>
+    </message>
+    <message>
+      <source>Fullscreen (Borderless)</source>
+      <translation>Tam Ekran (Kenarlıksız)</translation>
+    </message>
+    <message>
+      <source>Window Size</source>
+      <translation>Pencere Boyutu</translation>
+    </message>
+    <message>
+      <source>W:</source>
+      <translation>G:</translation>
+    </message>
+    <message>
+      <source>H:</source>
+      <translation>Y:</translation>
+    </message>
+    <message>
+      <source>Separate Log Files</source>
+      <translation>Ayrı Günlük Dosyaları</translation>
+    </message>
+    <message>
+      <source>Separate Log Files:\nWrites a separate logfile for each game.</source>
+      <translation>Ayrı Günlük Dosyaları:\nHer oyun için ayrı bir günlük dosyası yazar.</translation>
+    </message>
+    <message>
+      <source>Trophy Notification Position</source>
+      <translation>Kupa Bildirim Konumu</translation>
+    </message>
+    <message>
+      <source>Left</source>
+      <translation>Sol</translation>
+    </message>
+    <message>
+      <source>Right</source>
+      <translation>Sağ</translation>
+    </message>
+    <message>
+      <source>Top</source>
+      <translation>Üst</translation>
+    </message>
+    <message>
+      <source>Bottom</source>
+      <translation>Alt</translation>
+    </message>
+    <message>
+      <source>Notification Duration</source>
+      <translation>Bildirim Süresi</translation>
+    </message>
+    <message>
+      <source>Portable User Folder</source>
+      <translation>Taşınabilir Kullanıcı Klasörü</translation>
+    </message>
+    <message>
+      <source>Create Portable User Folder from Common User Folder</source>
+      <translation>Ortak Kullanıcı Klasöründen Taşınabilir Kullanıcı Klasörü Oluştur</translation>
+    </message>
+    <message>
+      <source>Portable user folder:\nStores shadPS4 settings and data that will be applied only to the shadPS4 build located in the current folder. Restart the app after creating the portable user folder to begin using it.</source>
+      <translation>Taşınabilir kullanıcı klasörü:\nYalnızca geçerli klasörde bulunan shadPS4 derlemesine uygulanacak shadPS4 ayarlarını ve verilerini depolar. Kullanmaya başlamak için taşınabilir kullanıcı klasörünü oluşturduktan sonra uygulamayı yeniden başlatın.</translation>
+    </message>
+    <message>
+      <source>Cannot create portable user folder</source>
+      <translation>Taşınabilir kullanıcı klasörü oluşturulamıyor</translation>
+    </message>
+    <message>
+      <source>%1 already exists</source>
+      <translation>%1 zaten mevcut</translation>
+    </message>
+    <message>
+      <source>Portable user folder created</source>
+      <translation>Taşınabilir kullanıcı klasörü oluşturuldu</translation>
+    </message>
+    <message>
+      <source>%1 successfully created.</source>
+      <translation>%1 başarıyla oluşturuldu.</translation>
+    </message>
+    <message>
+      <source>Open the custom trophy images/sounds folder:\nYou can add custom images to the trophies and an audio.\nAdd the files to custom_trophy with the following names:\ntrophy.wav OR trophy.mp3, bronze.png, gold.png, platinum.png, silver.png\nNote: The sound will only work in QT versions.</source>
+      <translation>Özel kupa görüntüleri/sesleri klasörünü aç:\nKupalara özel görüntüler ve sesler ekleyebilirsiniz.\nDosyaları aşağıdaki adlarla custom_trophy'ye ekleyin:\ntrophy.wav ya da trophy.mp3, bronze.png, gold.png, platinum.png, silver.png\nNot: Ses yalnızca QT sürümlerinde çalışacaktır.</translation>
     </message>
   </context>
   <context>
@@ -1785,6 +2064,26 @@
     <message>
       <source>Trophy Viewer</source>
       <translation>Kupa Görüntüleyici</translation>
+    </message>
+    <message>
+      <source>Select Game:</source>
+      <translation>Oyun Seç:</translation>
+    </message>
+    <message>
+      <source>Progress</source>
+      <translation>İlerleme</translation>
+    </message>
+    <message>
+      <source>Show Earned Trophies</source>
+      <translation>Kazanılmış Kupaları Göster</translation>
+    </message>
+    <message>
+      <source>Show Not Earned Trophies</source>
+      <translation>Kazanılmamış Kupaları Göster</translation>
+    </message>
+    <message>
+      <source>Show Hidden Trophies</source>
+      <translation>Gizli Kupaları Göster</translation>
     </message>
   </context>
 </TS>

@@ -19,7 +19,7 @@
 #include <QStandardPaths>
 #include <QString>
 #include <QStringList>
-#include <QTextEdit>
+#include <QTextBrowser>
 #include <QVBoxLayout>
 #include <common/config.h>
 #include <common/path_util.h>
@@ -70,8 +70,11 @@ void CheckUpdate::CheckForUpdates(const bool showMessage) {
             if (reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt() == 403) {
                 QString response = reply->readAll();
                 if (response.startsWith("{\"message\":\"API rate limit exceeded for")) {
-                    QMessageBox::warning(this, tr("Auto Updater"),
-                                         tr("Error_Github_limit_MSG").replace("\\n", "\n"));
+                    QMessageBox::warning(
+                        this, tr("Auto Updater"),
+                        // clang-format off
+tr("The Auto Updater allows up to 60 update checks per hour.\\nYou have reached this limit. Please try again later.").replace("\\n", "\n"));
+                    // clang-format on
                 } else {
                     QMessageBox::warning(
                         this, tr("Error"),
@@ -244,7 +247,7 @@ void CheckUpdate::setupUI(const QString& downloadUrl, const QString& latestDate,
     bool latest_isWIP = latestRev.endsWith("WIP", Qt::CaseInsensitive);
     if (current_isWIP && !latest_isWIP) {
     } else {
-        QTextEdit* textField = new QTextEdit(this);
+        QTextBrowser* textField = new QTextBrowser(this);
         textField->setReadOnly(true);
         textField->setFixedWidth(500);
         textField->setFixedHeight(200);
@@ -346,8 +349,28 @@ void CheckUpdate::requestChangelog(const QString& currentRev, const QString& lat
                 }
 
                 // Update the text field with the changelog
-                QTextEdit* textField = findChild<QTextEdit*>();
+                QTextBrowser* textField = findChild<QTextBrowser*>();
                 if (textField) {
+                    QRegularExpression re("\\(\\#(\\d+)\\)");
+                    QString newChanges;
+                    int lastIndex = 0;
+                    QRegularExpressionMatchIterator i = re.globalMatch(changes);
+                    while (i.hasNext()) {
+                        QRegularExpressionMatch match = i.next();
+                        newChanges += changes.mid(lastIndex, match.capturedStart() - lastIndex);
+                        QString num = match.captured(1);
+                        newChanges +=
+                            QString(
+                                "(<a "
+                                "href=\"https://github.com/shadps4-emu/shadPS4/pull/%1\">#%1</a>)")
+                                .arg(num);
+                        lastIndex = match.capturedEnd();
+                    }
+
+                    newChanges += changes.mid(lastIndex);
+                    changes = newChanges;
+
+                    textField->setOpenExternalLinks(true);
                     textField->setHtml("<h2>" + tr("Changes") + ":</h2>" + changes);
                 }
 

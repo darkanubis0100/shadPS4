@@ -13,7 +13,9 @@
 namespace Shader {
 
 struct VsAttribSpecialization {
+    s32 num_components{};
     AmdGpu::NumberClass num_class{};
+    AmdGpu::CompMapping dst_select{};
 
     auto operator<=>(const VsAttribSpecialization&) const = default;
 };
@@ -89,21 +91,20 @@ struct StageSpecialization {
                         Backend::Bindings start_)
         : info{&info_}, runtime_info{runtime_info_}, start{start_} {
         fetch_shader_data = Gcn::ParseFetchShader(info_);
-        if (info_.stage == Stage::Vertex && fetch_shader_data &&
-            !profile_.support_legacy_vertex_attributes) {
+        if (info_.stage == Stage::Vertex && fetch_shader_data) {
             // Specialize shader on VS input number types to follow spec.
             ForEachSharp(vs_attribs, fetch_shader_data->attributes,
-                         [](auto& spec, const auto& desc, AmdGpu::Buffer sharp) {
-                             spec.num_class = AmdGpu::GetNumberClass(sharp.GetNumberFmt());
+                         [&profile_](auto& spec, const auto& desc, AmdGpu::Buffer sharp) {
+                             spec.num_components = desc.UsesStepRates()
+                                                       ? AmdGpu::NumComponents(sharp.GetDataFmt())
+                                                       : 0;
+                             spec.num_class = profile_.support_legacy_vertex_attributes
+                                                  ? AmdGpu::NumberClass{}
+                                                  : AmdGpu::GetNumberClass(sharp.GetNumberFmt());
+                             spec.dst_select = sharp.DstSelect();
                          });
         }
         u32 binding{};
-        if (info->has_emulated_shared_memory) {
-            binding++;
-        }
-        if (info->has_readconst) {
-            binding++;
-        }
         ForEachSharp(binding, buffers, info->buffers,
                      [profile_](auto& spec, const auto& desc, AmdGpu::Buffer sharp) {
                          spec.stride = sharp.GetStride();
@@ -195,18 +196,6 @@ struct StageSpecialization {
             }
         }
         u32 binding{};
-        if (info->has_emulated_shared_memory != other.info->has_emulated_shared_memory) {
-            return false;
-        }
-        if (info->has_readconst != other.info->has_readconst) {
-            return false;
-        }
-        if (info->has_emulated_shared_memory) {
-            binding++;
-        }
-        if (info->has_readconst) {
-            binding++;
-        }
         for (u32 i = 0; i < buffers.size(); i++) {
             if (other.bitset[binding++] && buffers[i] != other.buffers[i]) {
                 return false;
